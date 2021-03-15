@@ -18,12 +18,7 @@ const plotWidth = width - margin.left - margin.right;
 const plotHeight = height - margin.top - margin.bottom;
 
 // Create function to embed vega figures
-function embedPlot(spec, div_vis) {
-  const fig = vegaEmbed(div_vis, spec, {
-    renderer: 'svg', "actions": false
-  }).catch(console.warn);
-  return fig
-}
+
 
 // initialize the scrollama
 var container = d3.select("#scroll");
@@ -49,8 +44,6 @@ function handleResize() {
     .style("top", figureMarginTop + "px");
 
 
-
-
   // 3. tell scrollama to update new element dimensions
   scroller.resize();
 }
@@ -73,16 +66,20 @@ function handleStepEnter(response) {
     }).catch(console.warn);
   } else if (response.index === 1) {
     d3.selectAll("path").interrupt();
-    embedPlot("./data/world.vg.json", "#vis1");
+    const fig = vegaEmbed("#vis1", "./data/world.vg.json", {
+      renderer: 'svg', "actions": false
+    }).catch(console.warn);
   } else if (response.index === 2) {
-    embedPlot("./data/states_pov.vg.json", "#vis1")
+    const fig = vegaEmbed("#vis1", "./data/states_pov.vg.json", {
+      renderer: 'svg', "actions": false
+    }).catch(console.warn);
   } else if (response.index === 3) {
-
-    embedPlot("./data/sates_sd.vg.json", "#vis1")
+    const fig = vegaEmbed("#vis1", "./data/sates_sd.vg.json", {
+      renderer: 'svg', "actions": false
+    }).catch(console.warn);
 
   }
-  console.log("Response is.....")
-  console.log(response)
+
   handleResize();
 }
 
