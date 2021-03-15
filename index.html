@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Dynamic Early Draft</title>
+  <link rel='stylesheet' href="main.css">
+</head>
+
+<body>
+  <div id="app"></div>
+  <section id='intro'>
+    <h1 class='intro__hed'>Multidimensional Poverty in Mexico</h1>
+    <h4 class="intro__dek">By Oscar Noriega</h4>
+
+    <p class="intro__p"> Probably the main, and most discussed, public policy issue in Mexico is poverty alleviation.
+      CONEVAL (Mexico’s National Council for Social Development Policy Evaluation) calculates that in 2018 41.9% of the
+      total population lived in poverty (roughly 52.4 million mexicans). Despite huge efforts, including a great number
+      of social programs through the years, poverty stills prevails at levels above 40%.
+
+      However, the concept of poverty comprises various components or dimensions, that is, it is a multi-dimensional
+      phenomenon that cannot be considered, solely and exclusively, by the goods and services that can be purchased in
+      the market (ie. income measurement alone).
+    </p>
+
+    <div style="text-align:center">
+      <p style="color:#696969;margin-top:2rem">Scroll down to explore</p>
+      <i class="fa fa-arrow-down" style="font-size:50px;color:#696969"></i>
+    </div>
+  </section>
+  <section id='scroll'>
+    <div class='scroll__graphic'>
+      <div id="vis1"></div>
+      <div class='chart'>
+        <p>0</p>
+      </div>
+    </div>
+    <div class='scroll__text'>
+      <div class='step' data-step='1'>
+        <h1>Mexico's total population</h1>
+        Hover your mouse thorugh the different categories and change years with the bottom bar
+
+      </div>
+      <div class='step' data-step='2'>
+        <p>Standarized Poverty measurements</p>
+        Hover your mouse thorugh the different categories
+
+      </div>
+      <div class='step' data-step='3'>
+        <p>Poverty Evolution by State</p>
+        Hover your mouse thorugh the different bars and select any state below
+      </div>
+      <div class='step' data-step='4'>
+        <p>Social Deprivations evolution by state</p>
+        Hover your mouse thorugh the different bars and select any state below
+
+      </div>
+    </div>
+  </section>
+  <section id='outro'></section>
+  <div class='debug'></div>
+
+
+
+
+  <script src="bundle.js"></script>
+
+</body>

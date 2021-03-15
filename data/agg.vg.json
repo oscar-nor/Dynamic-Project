@@ -1,0 +1,344 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "background": "#DDEEFF",
+  "padding": {"left": 10, "top": 18, "right": 15, "bottom": 18},
+  "height": 400,
+  "title": {
+    "text": "Source: Calculated with CONEVAL's methodology using data from the 2012-2016 ENIGH surveys",
+    "anchor": "end",
+    "baseline": "bottom",
+    "color": "black",
+    "fontSize": 10,
+    "fontWeight": "normal",
+    "orient": "bottom"
+  },
+  "data": [
+    {"name": "Select_store"},
+    {
+      "name": "data-489310faf5cf2d683a3aa8ac5d5b5605",
+      "values": [
+        {
+          "type": "Extreme Poverty",
+          "year": 2012,
+          "pob": 11528950,
+          "pob_ent": 117306151,
+          "percentage": 0.09828086508438931,
+          "order": 0
+        },
+        {
+          "type": "Extreme Poverty",
+          "year": 2014,
+          "pob": 11442303,
+          "pob_ent": 119871143,
+          "percentage": 0.09545502540173492,
+          "order": 0
+        },
+        {
+          "type": "Extreme Poverty",
+          "year": 2016,
+          "pob": 9375581,
+          "pob_ent": 122636694,
+          "percentage": 0.0764500468350851,
+          "order": 0
+        },
+        {
+          "type": "Extreme Poverty",
+          "year": 2018,
+          "pob": 9310153,
+          "pob_ent": 125082416,
+          "percentage": 0.07443214880019586,
+          "order": 0
+        },
+        {
+          "type": "Income Vulnerability",
+          "year": 2012,
+          "pob": 7228628,
+          "pob_ent": 117306151,
+          "percentage": 0.061621900798705775,
+          "order": 3
+        },
+        {
+          "type": "Income Vulnerability",
+          "year": 2014,
+          "pob": 8475777,
+          "pob_ent": 119871143,
+          "percentage": 0.07070740119663328,
+          "order": 3
+        },
+        {
+          "type": "Income Vulnerability",
+          "year": 2016,
+          "pob": 8605022,
+          "pob_ent": 122636694,
+          "percentage": 0.07016678058852434,
+          "order": 3
+        },
+        {
+          "type": "Income Vulnerability",
+          "year": 2018,
+          "pob": 8628005,
+          "pob_ent": 125082416,
+          "percentage": 0.06897856050366025,
+          "order": 3
+        },
+        {
+          "type": "Moderate Poverty",
+          "year": 2012,
+          "pob": 41820952,
+          "pob_ent": 117306151,
+          "percentage": 0.356511160271553,
+          "order": 1
+        },
+        {
+          "type": "Moderate Poverty",
+          "year": 2014,
+          "pob": 43899253,
+          "pob_ent": 119871143,
+          "percentage": 0.36622035880645604,
+          "order": 1
+        },
+        {
+          "type": "Moderate Poverty",
+          "year": 2016,
+          "pob": 44042570,
+          "pob_ent": 122636694,
+          "percentage": 0.3591304410081374,
+          "order": 1
+        },
+        {
+          "type": "Moderate Poverty",
+          "year": 2018,
+          "pob": 43115734,
+          "pob_ent": 125082416,
+          "percentage": 0.34469860255977147,
+          "order": 1
+        },
+        {
+          "type": "Non poor or vulnerable",
+          "year": 2012,
+          "pob": 23210928,
+          "pob_ent": 117306151,
+          "percentage": 0.19786624829247018,
+          "order": 4
+        },
+        {
+          "type": "Non poor or vulnerable",
+          "year": 2014,
+          "pob": 24578250,
+          "pob_ent": 119871143,
+          "percentage": 0.20503892250364208,
+          "order": 4
+        },
+        {
+          "type": "Non poor or vulnerable",
+          "year": 2016,
+          "pob": 27752767,
+          "pob_ent": 122636694,
+          "percentage": 0.22630067800099046,
+          "order": 4
+        },
+        {
+          "type": "Non poor or vulnerable",
+          "year": 2018,
+          "pob": 27352149,
+          "pob_ent": 125082416,
+          "percentage": 0.2186730147585253,
+          "order": 4
+        },
+        {
+          "type": "Social Deprivations vulnerability",
+          "year": 2012,
+          "pob": 33516693,
+          "pob_ent": 117306151,
+          "percentage": 0.2857198255528817,
+          "order": 2
+        },
+        {
+          "type": "Social Deprivations vulnerability",
+          "year": 2014,
+          "pob": 31475560,
+          "pob_ent": 119871143,
+          "percentage": 0.26257829209153366,
+          "order": 2
+        },
+        {
+          "type": "Social Deprivations vulnerability",
+          "year": 2016,
+          "pob": 32860754,
+          "pob_ent": 122636694,
+          "percentage": 0.26795205356726265,
+          "order": 2
+        },
+        {
+          "type": "Social Deprivations vulnerability",
+          "year": 2018,
+          "pob": 36676375,
+          "pob_ent": 125082416,
+          "percentage": 0.29321767337784715,
+          "order": 2
+        }
+      ]
+    },
+    {
+      "name": "data_0",
+      "source": "data-489310faf5cf2d683a3aa8ac5d5b5605",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "!length(data(\"Select_store\")) || vlSelectionTest(\"Select_store\", datum)"
+        },
+        {
+          "type": "stack",
+          "groupby": ["year"],
+          "field": "percentage",
+          "sort": {"field": ["order"], "order": ["ascending"]},
+          "as": ["percentage_start", "percentage_end"],
+          "offset": "zero"
+        },
+        {
+          "type": "filter",
+          "expr": "isValid(datum[\"percentage\"]) && isFinite(+datum[\"percentage\"])"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {"name": "childWidth", "value": 700},
+    {
+      "name": "unit",
+      "value": {},
+      "on": [
+        {"events": "mousemove", "update": "isTuple(group()) ? group() : unit"}
+      ]
+    },
+    {
+      "name": "Select_year",
+      "value": null,
+      "bind": {"input": "range", "max": 2018, "min": 2012, "step": 2}
+    },
+    {
+      "name": "Select",
+      "update": "vlSelectionResolve(\"Select_store\", \"union\", true, true)"
+    }
+  ],
+  "layout": {"padding": 20, "bounds": "full", "align": "each"},
+  "marks": [
+    {
+      "type": "group",
+      "name": "concat_0_group",
+      "title": {
+        "text": "Mexico's population by poverty/vulnerability status",
+        "fontSize": 28,
+        "subtitle": "Percentage of total population according to CONEVAL categories of vulnerability",
+        "subtitleFontSize": 15,
+        "subtitlePadding": 15,
+        "frame": "group"
+      },
+      "style": "cell",
+      "encode": {
+        "update": {
+          "width": {"signal": "childWidth"},
+          "height": {"signal": "height"}
+        }
+      },
+      "signals": [
+        {
+          "name": "Select_tuple",
+          "update": "Select_year !== null ? {fields: Select_tuple_fields, values: [Select_year]} : null"
+        },
+        {
+          "name": "Select_tuple_fields",
+          "value": [{"type": "E", "field": "year"}]
+        },
+        {
+          "name": "Select_modify",
+          "on": [
+            {
+              "events": {"signal": "Select_tuple"},
+              "update": "modify(\"Select_store\", Select_tuple, true)"
+            }
+          ]
+        }
+      ],
+      "marks": [
+        {
+          "name": "concat_0_layer_0_marks",
+          "type": "rect",
+          "style": ["bar"],
+          "interactive": true,
+          "from": {"data": "data_0"},
+          "encode": {
+            "update": {
+              "fill": {"scale": "concat_0_layer_0_color", "field": "type"},
+              "tooltip": {
+                "signal": "{\"type\": isValid(datum[\"type\"]) ? datum[\"type\"] : \"\"+datum[\"type\"], \"percentage\": format(datum[\"percentage\"], \".0%\"), \"pob\": format(datum[\"pob\"], \"\")}"
+              },
+              "ariaRoleDescription": {"value": "bar"},
+              "description": {
+                "signal": "\"type: \" + (isValid(datum[\"type\"]) ? datum[\"type\"] : \"\"+datum[\"type\"]) + \"; order: \" + (format(datum[\"order\"], \"\")) + \"; percentage: \" + (format(datum[\"percentage\"], \".0%\")) + \"; pob: \" + (format(datum[\"pob\"], \"\")) + \"; Percentage of population: \" + (format(datum[\"percentage\"], \".0%\")) + \"; Year: \" + (isValid(datum[\"year\"]) ? datum[\"year\"] : \"\"+datum[\"year\"])"
+              },
+              "x": {"scale": "concat_0_x", "field": "percentage_end"},
+              "x2": {"scale": "concat_0_x", "field": "percentage_start"},
+              "yc": {"scale": "concat_0_y", "field": "year", "band": 0.5},
+              "height": {"value": 130}
+            }
+          }
+        }
+      ],
+      "axes": [
+        {
+          "scale": "concat_0_x",
+          "orient": "bottom",
+          "grid": false,
+          "title": "Percentage of population",
+          "format": ".0%",
+          "tickCount": 4,
+          "labelFlush": true,
+          "labelOverlap": true,
+          "zindex": 0
+        },
+        {
+          "scale": "concat_0_y",
+          "orient": "left",
+          "grid": false,
+          "title": "Year",
+          "zindex": 0
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "concat_0_x",
+      "type": "linear",
+      "domain": {
+        "data": "data_0",
+        "fields": ["percentage_start", "percentage_end"]
+      },
+      "range": [0, {"signal": "childWidth"}],
+      "nice": true,
+      "zero": true
+    },
+    {
+      "name": "concat_0_y",
+      "type": "band",
+      "domain": {"data": "data_0", "field": "year", "sort": true},
+      "range": [0, {"signal": "height"}],
+      "paddingInner": 0.1,
+      "paddingOuter": 0.05
+    },
+    {
+      "name": "concat_0_layer_0_color",
+      "type": "ordinal",
+      "domain": [
+        "Extreme Poverty",
+        "Moderate Poverty",
+        "Social Deprivations vulnerability",
+        "Income Vulnerability",
+        "Non poor or vulnerable"
+      ],
+      "range": {"scheme": "viridis"}
+    }
+  ],
+  "config": {"axis": {"grid": false}}
+}
