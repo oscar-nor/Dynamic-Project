@@ -1,0 +1,5531 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "background": "#DDEEFF",
+  "padding": {"left": 10, "top": 18, "right": 15, "bottom": 15},
+  "title": {
+    "text": [
+      "",
+      "",
+      "Source: Calculated with CONEVAL's methodology using data from the 2012-2016 ENIGH surveys"
+    ],
+    "anchor": "end",
+    "baseline": "bottom",
+    "color": "black",
+    "fontSize": 10,
+    "fontWeight": "normal",
+    "orient": "bottom"
+  },
+  "data": [
+    {
+      "name": "Select_store",
+      "values": [
+        {
+          "unit": "concat_0_concat_0_child + '__facet_column_' + (facet[\"state\"])",
+          "fields": [{"type": "E", "field": "state"}],
+          "values": ["AGUASCALIENTES"]
+        }
+      ]
+    },
+    {
+      "name": "data-8fdb023faec40903ddc6525f1cfdad09",
+      "values": [
+        {
+          "ent": 1,
+          "state": "AGUASCALIENTES",
+          "type": "Extreme Poverty",
+          "population": 1238279,
+          "percentage": 0.03390189125390966,
+          "postal": "AG",
+          "year": 2012
+        },
+        {
+          "ent": 2,
+          "state": "BAJA CALIFORNIA",
+          "type": "Extreme Poverty",
+          "population": 3343793,
+          "percentage": 0.027367722822555104,
+          "postal": "BC",
+          "year": 2012
+        },
+        {
+          "ent": 3,
+          "state": "BAJA CALIFORNIA SUR",
+          "type": "Extreme Poverty",
+          "population": 701794,
+          "percentage": 0.036755800135082374,
+          "postal": "BS",
+          "year": 2012
+        },
+        {
+          "ent": 4,
+          "state": "CAMPECHE",
+          "type": "Extreme Poverty",
+          "population": 868475,
+          "percentage": 0.10448199430035407,
+          "postal": "CM",
+          "year": 2012
+        },
+        {
+          "ent": 5,
+          "state": "COAHUILA DE ZARAGOZA",
+          "type": "Extreme Poverty",
+          "population": 2862143,
+          "percentage": 0.032385873102776484,
+          "postal": "CO",
+          "year": 2012
+        },
+        {
+          "ent": 6,
+          "state": "COLIMA",
+          "type": "Extreme Poverty",
+          "population": 689208,
+          "percentage": 0.03979785492913605,
+          "postal": "CL",
+          "year": 2012
+        },
+        {
+          "ent": 7,
+          "state": "CHIAPAS",
+          "type": "Extreme Poverty",
+          "population": 5064198,
+          "percentage": 0.3217087878475526,
+          "postal": "CS",
+          "year": 2012
+        },
+        {
+          "ent": 8,
+          "state": "CHIHUAHUA",
+          "type": "Extreme Poverty",
+          "population": 3610061,
+          "percentage": 0.03775282467526172,
+          "postal": "CH",
+          "year": 2012
+        },
+        {
+          "ent": 9,
+          "state": "CIUDAD DE MÉXICO",
+          "type": "Extreme Poverty",
+          "population": 8874778,
+          "percentage": 0.024679490574299436,
+          "postal": "DF",
+          "year": 2012
+        },
+        {
+          "ent": 10,
+          "state": "DURANGO",
+          "type": "Extreme Poverty",
+          "population": 1715364,
+          "percentage": 0.0746354709554357,
+          "postal": "DG",
+          "year": 2012
+        },
+        {
+          "ent": 11,
+          "state": "GUANAJUATO",
+          "type": "Extreme Poverty",
+          "population": 5680323,
+          "percentage": 0.06898392925895235,
+          "postal": "GJ",
+          "year": 2012
+        },
+        {
+          "ent": 12,
+          "state": "GUERRERO",
+          "type": "Extreme Poverty",
+          "population": 3505076,
+          "percentage": 0.31711437926025,
+          "postal": "GR",
+          "year": 2012
+        },
+        {
+          "ent": 13,
+          "state": "HIDALGO",
+          "type": "Extreme Poverty",
+          "population": 2777755,
+          "percentage": 0.09961785686642631,
+          "postal": "HG",
+          "year": 2012
+        },
+        {
+          "ent": 14,
+          "state": "JALISCO",
+          "type": "Extreme Poverty",
+          "population": 7667912,
+          "percentage": 0.058187939559035104,
+          "postal": "JA",
+          "year": 2012
+        },
+        {
+          "ent": 15,
+          "state": "MÉXICO",
+          "type": "Extreme Poverty",
+          "population": 16165954,
+          "percentage": 0.05849744469147939,
+          "postal": "MX",
+          "year": 2012
+        },
+        {
+          "ent": 16,
+          "state": "MICHOACÁN DE OCAMPO",
+          "type": "Extreme Poverty",
+          "population": 4502198,
+          "percentage": 0.14445122138120092,
+          "postal": "MI",
+          "year": 2012
+        },
+        {
+          "ent": 17,
+          "state": "MORELOS",
+          "type": "Extreme Poverty",
+          "population": 1855788,
+          "percentage": 0.06313975518755376,
+          "postal": "MO",
+          "year": 2012
+        },
+        {
+          "ent": 18,
+          "state": "NAYARIT",
+          "type": "Extreme Poverty",
+          "population": 1162298,
+          "percentage": 0.11932223921920196,
+          "postal": "NA",
+          "year": 2012
+        },
+        {
+          "ent": 19,
+          "state": "NUEVO LEÓN",
+          "type": "Extreme Poverty",
+          "population": 4873250,
+          "percentage": 0.02411737546811676,
+          "postal": "NL",
+          "year": 2012
+        },
+        {
+          "ent": 20,
+          "state": "OAXACA",
+          "type": "Extreme Poverty",
+          "population": 3930738,
+          "percentage": 0.23318420103298668,
+          "postal": "OA",
+          "year": 2012
+        },
+        {
+          "ent": 21,
+          "state": "PUEBLA",
+          "type": "Extreme Poverty",
+          "population": 6015348,
+          "percentage": 0.17606196682220215,
+          "postal": "PU",
+          "year": 2012
+        },
+        {
+          "ent": 22,
+          "state": "QUERÉTARO",
+          "type": "Extreme Poverty",
+          "population": 1916292,
+          "percentage": 0.05151250435737351,
+          "postal": "QT",
+          "year": 2012
+        },
+        {
+          "ent": 23,
+          "state": "QUINTANA ROO",
+          "type": "Extreme Poverty",
+          "population": 1452036,
+          "percentage": 0.08413014553358181,
+          "postal": "QR",
+          "year": 2012
+        },
+        {
+          "ent": 24,
+          "state": "SAN LUIS POTOSÍ",
+          "type": "Extreme Poverty",
+          "population": 2679773,
+          "percentage": 0.12797576511144787,
+          "postal": "SL",
+          "year": 2012
+        },
+        {
+          "ent": 25,
+          "state": "SINALOA",
+          "type": "Extreme Poverty",
+          "population": 2911104,
+          "percentage": 0.04473251385041551,
+          "postal": "SI",
+          "year": 2012
+        },
+        {
+          "ent": 26,
+          "state": "SONORA",
+          "type": "Extreme Poverty",
+          "population": 2820397,
+          "percentage": 0.04958131780738669,
+          "postal": "SO",
+          "year": 2012
+        },
+        {
+          "ent": 27,
+          "state": "TABASCO",
+          "type": "Extreme Poverty",
+          "population": 2313144,
+          "percentage": 0.1430083903120601,
+          "postal": "TB",
+          "year": 2012
+        },
+        {
+          "ent": 28,
+          "state": "TAMAULIPAS",
+          "type": "Extreme Poverty",
+          "population": 3429728,
+          "percentage": 0.046697580682783006,
+          "postal": "TM",
+          "year": 2012
+        },
+        {
+          "ent": 29,
+          "state": "TLAXCALA",
+          "type": "Extreme Poverty",
+          "population": 1229936,
+          "percentage": 0.09126084609280483,
+          "postal": "TL",
+          "year": 2012
+        },
+        {
+          "ent": 30,
+          "state": "VERACRUZ DE IGNACIO DE LA LLAVE",
+          "type": "Extreme Poverty",
+          "population": 7867441,
+          "percentage": 0.1426069798299091,
+          "postal": "VE",
+          "year": 2012
+        },
+        {
+          "ent": 31,
+          "state": "YUCATAN",
+          "type": "Extreme Poverty",
+          "population": 2040412,
+          "percentage": 0.0983178887401172,
+          "postal": "YU",
+          "year": 2012
+        },
+        {
+          "ent": 32,
+          "state": "ZACATECAS",
+          "type": "Extreme Poverty",
+          "population": 1541155,
+          "percentage": 0.07481142389960777,
+          "postal": "ZA",
+          "year": 2012
+        },
+        {
+          "ent": 1,
+          "state": "AGUASCALIENTES",
+          "type": "Extreme Poverty",
+          "population": 1273851,
+          "percentage": 0.02096713037867066,
+          "postal": "AG",
+          "year": 2014
+        },
+        {
+          "ent": 2,
+          "state": "BAJA CALIFORNIA",
+          "type": "Extreme Poverty",
+          "population": 3444107,
+          "percentage": 0.03064538935637017,
+          "postal": "BC",
+          "year": 2014
+        },
+        {
+          "ent": 3,
+          "state": "BAJA CALIFORNIA SUR",
+          "type": "Extreme Poverty",
+          "population": 747567,
+          "percentage": 0.03945733292133013,
+          "postal": "BS",
+          "year": 2014
+        },
+        {
+          "ent": 4,
+          "state": "CAMPECHE",
+          "type": "Extreme Poverty",
+          "population": 896946,
+          "percentage": 0.11062650371371298,
+          "postal": "CM",
+          "year": 2014
+        },
+        {
+          "ent": 5,
+          "state": "COAHUILA DE ZARAGOZA",
+          "type": "Extreme Poverty",
+          "population": 2935848,
+          "percentage": 0.037368419618454364,
+          "postal": "CO",
+          "year": 2014
+        },
+        {
+          "ent": 6,
+          "state": "COLIMA",
+          "type": "Extreme Poverty",
+          "population": 713154,
+          "percentage": 0.03415251123880676,
+          "postal": "CL",
+          "year": 2014
+        },
+        {
+          "ent": 7,
+          "state": "CHIAPAS",
+          "type": "Extreme Poverty",
+          "population": 5197565,
+          "percentage": 0.3182942397064779,
+          "postal": "CS",
+          "year": 2014
+        },
+        {
+          "ent": 8,
+          "state": "CHIHUAHUA",
+          "type": "Extreme Poverty",
+          "population": 3679912,
+          "percentage": 0.05443472561300379,
+          "postal": "CH",
+          "year": 2014
+        },
+        {
+          "ent": 9,
+          "state": "CIUDAD DE MÉXICO",
+          "type": "Extreme Poverty",
+          "population": 8820096,
+          "percentage": 0.01706682104140363,
+          "postal": "DF",
+          "year": 2014
+        },
+        {
+          "ent": 10,
+          "state": "DURANGO",
+          "type": "Extreme Poverty",
+          "population": 1751418,
+          "percentage": 0.05309926014235322,
+          "postal": "DG",
+          "year": 2014
+        },
+        {
+          "ent": 11,
+          "state": "GUANAJUATO",
+          "type": "Extreme Poverty",
+          "population": 5763682,
+          "percentage": 0.055103144135988075,
+          "postal": "GJ",
+          "year": 2014
+        },
+        {
+          "ent": 12,
+          "state": "GUERRERO",
+          "type": "Extreme Poverty",
+          "population": 3550275,
+          "percentage": 0.24452387491109845,
+          "postal": "GR",
+          "year": 2014
+        },
+        {
+          "ent": 13,
+          "state": "HIDALGO",
+          "type": "Extreme Poverty",
+          "population": 2850296,
+          "percentage": 0.12295424755885002,
+          "postal": "HG",
+          "year": 2014
+        },
+        {
+          "ent": 14,
+          "state": "JALISCO",
+          "type": "Extreme Poverty",
+          "population": 7860753,
+          "percentage": 0.03221383498501988,
+          "postal": "JA",
+          "year": 2014
+        },
+        {
+          "ent": 15,
+          "state": "MÉXICO",
+          "type": "Extreme Poverty",
+          "population": 16673086,
+          "percentage": 0.07238336082474474,
+          "postal": "MX",
+          "year": 2014
+        },
+        {
+          "ent": 16,
+          "state": "MICHOACÁN DE OCAMPO",
+          "type": "Extreme Poverty",
+          "population": 4571735,
+          "percentage": 0.14039549536445134,
+          "postal": "MI",
+          "year": 2014
+        },
+        {
+          "ent": 17,
+          "state": "MORELOS",
+          "type": "Extreme Poverty",
+          "population": 1901076,
+          "percentage": 0.07851658744837134,
+          "postal": "MO",
+          "year": 2014
+        },
+        {
+          "ent": 18,
+          "state": "NAYARIT",
+          "type": "Extreme Poverty",
+          "population": 1206884,
+          "percentage": 0.08462950871831924,
+          "postal": "NA",
+          "year": 2014
+        },
+        {
+          "ent": 19,
+          "state": "NUEVO LEÓN",
+          "type": "Extreme Poverty",
+          "population": 5021727,
+          "percentage": 0.013284871917569394,
+          "postal": "NL",
+          "year": 2014
+        },
+        {
+          "ent": 20,
+          "state": "OAXACA",
+          "type": "Extreme Poverty",
+          "population": 3989130,
+          "percentage": 0.28334423796667446,
+          "postal": "OA",
+          "year": 2014
+        },
+        {
+          "ent": 21,
+          "state": "PUEBLA",
+          "type": "Extreme Poverty",
+          "population": 6134172,
+          "percentage": 0.16160648902573974,
+          "postal": "PU",
+          "year": 2014
+        },
+        {
+          "ent": 22,
+          "state": "QUERÉTARO",
+          "type": "Extreme Poverty",
+          "population": 1977098,
+          "percentage": 0.038500873502476864,
+          "postal": "QT",
+          "year": 2014
+        },
+        {
+          "ent": 23,
+          "state": "QUINTANA ROO",
+          "type": "Extreme Poverty",
+          "population": 1541196,
+          "percentage": 0.06979255072034965,
+          "postal": "QR",
+          "year": 2014
+        },
+        {
+          "ent": 24,
+          "state": "SAN LUIS POTOSÍ",
+          "type": "Extreme Poverty",
+          "population": 2725175,
+          "percentage": 0.09484601906299596,
+          "postal": "SL",
+          "year": 2014
+        },
+        {
+          "ent": 25,
+          "state": "SINALOA",
+          "type": "Extreme Poverty",
+          "population": 2964398,
+          "percentage": 0.05257357480338335,
+          "postal": "SI",
+          "year": 2014
+        },
+        {
+          "ent": 26,
+          "state": "SONORA",
+          "type": "Extreme Poverty",
+          "population": 2902359,
+          "percentage": 0.032935622367873854,
+          "postal": "SO",
+          "year": 2014
+        },
+        {
+          "ent": 27,
+          "state": "TABASCO",
+          "type": "Extreme Poverty",
+          "population": 2359842,
+          "percentage": 0.11029340099888044,
+          "postal": "TB",
+          "year": 2014
+        },
+        {
+          "ent": 28,
+          "state": "TAMAULIPAS",
+          "type": "Extreme Poverty",
+          "population": 3508919,
+          "percentage": 0.04320561403668765,
+          "postal": "TM",
+          "year": 2014
+        },
+        {
+          "ent": 29,
+          "state": "TLAXCALA",
+          "type": "Extreme Poverty",
+          "population": 1264496,
+          "percentage": 0.06535172906834028,
+          "postal": "TL",
+          "year": 2014
+        },
+        {
+          "ent": 30,
+          "state": "VERACRUZ DE IGNACIO DE LA LLAVE",
+          "type": "Extreme Poverty",
+          "population": 7989354,
+          "percentage": 0.17153527056129944,
+          "postal": "VE",
+          "year": 2014
+        },
+        {
+          "ent": 31,
+          "state": "YUCATAN",
+          "type": "Extreme Poverty",
+          "population": 2088925,
+          "percentage": 0.10685591871417116,
+          "postal": "YU",
+          "year": 2014
+        },
+        {
+          "ent": 32,
+          "state": "ZACATECAS",
+          "type": "Extreme Poverty",
+          "population": 1566101,
+          "percentage": 0.057104873823591196,
+          "postal": "ZA",
+          "year": 2014
+        },
+        {
+          "ent": 1,
+          "state": "AGUASCALIENTES",
+          "type": "Extreme Poverty",
+          "population": 1309930,
+          "percentage": 0.023039399051857732,
+          "postal": "AG",
+          "year": 2016
+        },
+        {
+          "ent": 2,
+          "state": "BAJA CALIFORNIA",
+          "type": "Extreme Poverty",
+          "population": 3549320,
+          "percentage": 0.011179887978542368,
+          "postal": "BC",
+          "year": 2016
+        },
+        {
+          "ent": 3,
+          "state": "BAJA CALIFORNIA SUR",
+          "type": "Extreme Poverty",
+          "population": 793825,
+          "percentage": 0.016077850911724877,
+          "postal": "BS",
+          "year": 2016
+        },
+        {
+          "ent": 4,
+          "state": "CAMPECHE",
+          "type": "Extreme Poverty",
+          "population": 925421,
+          "percentage": 0.06657294355758082,
+          "postal": "CM",
+          "year": 2016
+        },
+        {
+          "ent": 5,
+          "state": "COAHUILA DE ZARAGOZA",
+          "type": "Extreme Poverty",
+          "population": 3005811,
+          "percentage": 0.016530314114892787,
+          "postal": "CO",
+          "year": 2016
+        },
+        {
+          "ent": 6,
+          "state": "COLIMA",
+          "type": "Extreme Poverty",
+          "population": 739454,
+          "percentage": 0.02607599661371769,
+          "postal": "CL",
+          "year": 2016
+        },
+        {
+          "ent": 7,
+          "state": "CHIAPAS",
+          "type": "Extreme Poverty",
+          "population": 5337151,
+          "percentage": 0.28079119365369276,
+          "postal": "CS",
+          "year": 2016
+        },
+        {
+          "ent": 8,
+          "state": "CHIHUAHUA",
+          "type": "Extreme Poverty",
+          "population": 3757012,
+          "percentage": 0.032171576774308944,
+          "postal": "CH",
+          "year": 2016
+        },
+        {
+          "ent": 9,
+          "state": "CIUDAD DE MÉXICO",
+          "type": "Extreme Poverty",
+          "population": 8821845,
+          "percentage": 0.01758453022015236,
+          "postal": "DF",
+          "year": 2016
+        },
+        {
+          "ent": 10,
+          "state": "DURANGO",
+          "type": "Extreme Poverty",
+          "population": 1787492,
+          "percentage": 0.02772879542957395,
+          "postal": "DG",
+          "year": 2016
+        },
+        {
+          "ent": 11,
+          "state": "GUANAJUATO",
+          "type": "Extreme Poverty",
+          "population": 5877529,
+          "percentage": 0.04382453918985342,
+          "postal": "GJ",
+          "year": 2016
+        },
+        {
+          "ent": 12,
+          "state": "GUERRERO",
+          "type": "Extreme Poverty",
+          "population": 3593873,
+          "percentage": 0.2296169063291886,
+          "postal": "GR",
+          "year": 2016
+        },
+        {
+          "ent": 13,
+          "state": "HIDALGO",
+          "type": "Extreme Poverty",
+          "population": 2921427,
+          "percentage": 0.08018581330288246,
+          "postal": "HG",
+          "year": 2016
+        },
+        {
+          "ent": 14,
+          "state": "JALISCO",
+          "type": "Extreme Poverty",
+          "population": 8048629,
+          "percentage": 0.018000705461762495,
+          "postal": "JA",
+          "year": 2016
+        },
+        {
+          "ent": 15,
+          "state": "MÉXICO",
+          "type": "Extreme Poverty",
+          "population": 17190721,
+          "percentage": 0.06148421581619526,
+          "postal": "MX",
+          "year": 2016
+        },
+        {
+          "ent": 16,
+          "state": "MICHOACÁN DE OCAMPO",
+          "type": "Extreme Poverty",
+          "population": 4636713,
+          "percentage": 0.09389043488350476,
+          "postal": "MI",
+          "year": 2016
+        },
+        {
+          "ent": 17,
+          "state": "MORELOS",
+          "type": "Extreme Poverty",
+          "population": 1949458,
+          "percentage": 0.059187220242754655,
+          "postal": "MO",
+          "year": 2016
+        },
+        {
+          "ent": 18,
+          "state": "NAYARIT",
+          "type": "Extreme Poverty",
+          "population": 1252827,
+          "percentage": 0.07930145183652651,
+          "postal": "NA",
+          "year": 2016
+        },
+        {
+          "ent": 19,
+          "state": "NUEVO LEÓN",
+          "type": "Extreme Poverty",
+          "population": 5178910,
+          "percentage": 0.006080623142707635,
+          "postal": "NL",
+          "year": 2016
+        },
+        {
+          "ent": 20,
+          "state": "OAXACA",
+          "type": "Extreme Poverty",
+          "population": 4044455,
+          "percentage": 0.26880160614965426,
+          "postal": "OA",
+          "year": 2016
+        },
+        {
+          "ent": 21,
+          "state": "PUEBLA",
+          "type": "Extreme Poverty",
+          "population": 6272194,
+          "percentage": 0.08958045621675605,
+          "postal": "PU",
+          "year": 2016
+        },
+        {
+          "ent": 22,
+          "state": "QUERÉTARO",
+          "type": "Extreme Poverty",
+          "population": 2042725,
+          "percentage": 0.029233988911870172,
+          "postal": "QT",
+          "year": 2016
+        },
+        {
+          "ent": 23,
+          "state": "QUINTANA ROO",
+          "type": "Extreme Poverty",
+          "population": 1632900,
+          "percentage": 0.042369404127625694,
+          "postal": "QR",
+          "year": 2016
+        },
+        {
+          "ent": 24,
+          "state": "SAN LUIS POTOSÍ",
+          "type": "Extreme Poverty",
+          "population": 2784951,
+          "percentage": 0.07677334358845093,
+          "postal": "SL",
+          "year": 2016
+        },
+        {
+          "ent": 25,
+          "state": "SINALOA",
+          "type": "Extreme Poverty",
+          "population": 3017801,
+          "percentage": 0.028856773524828176,
+          "postal": "SI",
+          "year": 2016
+        },
+        {
+          "ent": 26,
+          "state": "SONORA",
+          "type": "Extreme Poverty",
+          "population": 2983907,
+          "percentage": 0.02524374921872565,
+          "postal": "SO",
+          "year": 2016
+        },
+        {
+          "ent": 27,
+          "state": "TABASCO",
+          "type": "Extreme Poverty",
+          "population": 2415042,
+          "percentage": 0.11769277718565557,
+          "postal": "TB",
+          "year": 2016
+        },
+        {
+          "ent": 28,
+          "state": "TAMAULIPAS",
+          "type": "Extreme Poverty",
+          "population": 3594962,
+          "percentage": 0.028817550783568784,
+          "postal": "TM",
+          "year": 2016
+        },
+        {
+          "ent": 29,
+          "state": "TLAXCALA",
+          "type": "Extreme Poverty",
+          "population": 1300859,
+          "percentage": 0.05744204406472954,
+          "postal": "TL",
+          "year": 2016
+        },
+        {
+          "ent": 30,
+          "state": "VERACRUZ DE IGNACIO DE LA LLAVE",
+          "type": "Extreme Poverty",
+          "population": 8123403,
+          "percentage": 0.16403334907796646,
+          "postal": "VE",
+          "year": 2016
+        },
+        {
+          "ent": 31,
+          "state": "YUCATAN",
+          "type": "Extreme Poverty",
+          "population": 2153877,
+          "percentage": 0.061477512411340106,
+          "postal": "YU",
+          "year": 2016
+        },
+        {
+          "ent": 32,
+          "state": "ZACATECAS",
+          "type": "Extreme Poverty",
+          "population": 1592270,
+          "percentage": 0.035240882513644045,
+          "postal": "ZA",
+          "year": 2016
+        },
+        {
+          "ent": 1,
+          "state": "AGUASCALIENTES",
+          "type": "Extreme Poverty",
+          "population": 1342587,
+          "percentage": 0.011655855449218561,
+          "postal": "AG",
+          "year": 2018
+        },
+        {
+          "ent": 2,
+          "state": "BAJA CALIFORNIA",
+          "type": "Extreme Poverty",
+          "population": 3648116,
+          "percentage": 0.016254691462661824,
+          "postal": "BC",
+          "year": 2018
+        },
+        {
+          "ent": 3,
+          "state": "BAJA CALIFORNIA SUR",
+          "type": "Extreme Poverty",
+          "population": 839675,
+          "percentage": 0.014985559889242862,
+          "postal": "BS",
+          "year": 2018
+        },
+        {
+          "ent": 4,
+          "state": "CAMPECHE",
+          "type": "Extreme Poverty",
+          "population": 952279,
+          "percentage": 0.09770875972272831,
+          "postal": "CM",
+          "year": 2018
+        },
+        {
+          "ent": 5,
+          "state": "COAHUILA DE ZARAGOZA",
+          "type": "Extreme Poverty",
+          "population": 3073513,
+          "percentage": 0.014487981667882973,
+          "postal": "CO",
+          "year": 2018
+        },
+        {
+          "ent": 6,
+          "state": "COLIMA",
+          "type": "Extreme Poverty",
+          "population": 763300,
+          "percentage": 0.023906720817502947,
+          "postal": "CL",
+          "year": 2018
+        },
+        {
+          "ent": 7,
+          "state": "CHIAPAS",
+          "type": "Extreme Poverty",
+          "population": 5463342,
+          "percentage": 0.2971232626476614,
+          "postal": "CS",
+          "year": 2018
+        },
+        {
+          "ent": 8,
+          "state": "CHIHUAHUA",
+          "type": "Extreme Poverty",
+          "population": 3826880,
+          "percentage": 0.026088615268835186,
+          "postal": "CH",
+          "year": 2018
+        },
+        {
+          "ent": 9,
+          "state": "CIUDAD DE MÉXICO",
+          "type": "Extreme Poverty",
+          "population": 8781315,
+          "percentage": 0.017461166123752536,
+          "postal": "DF",
+          "year": 2018
+        },
+        {
+          "ent": 10,
+          "state": "DURANGO",
+          "type": "Extreme Poverty",
+          "population": 1820740,
+          "percentage": 0.02219537111284423,
+          "postal": "DG",
+          "year": 2018
+        },
+        {
+          "ent": 11,
+          "state": "GUANAJUATO",
+          "type": "Extreme Poverty",
+          "population": 5964968,
+          "percentage": 0.04245789751093384,
+          "postal": "GJ",
+          "year": 2018
+        },
+        {
+          "ent": 12,
+          "state": "GUERRERO",
+          "type": "Extreme Poverty",
+          "population": 3629032,
+          "percentage": 0.26768543236874187,
+          "postal": "GR",
+          "year": 2018
+        },
+        {
+          "ent": 13,
+          "state": "HIDALGO",
+          "type": "Extreme Poverty",
+          "population": 2990303,
+          "percentage": 0.06068716113383828,
+          "postal": "HG",
+          "year": 2018
+        },
+        {
+          "ent": 14,
+          "state": "JALISCO",
+          "type": "Extreme Poverty",
+          "population": 8222691,
+          "percentage": 0.029737345110013254,
+          "postal": "JA",
+          "year": 2018
+        },
+        {
+          "ent": 15,
+          "state": "MÉXICO",
+          "type": "Extreme Poverty",
+          "population": 17666779,
+          "percentage": 0.049004292180255385,
+          "postal": "MX",
+          "year": 2018
+        },
+        {
+          "ent": 16,
+          "state": "MICHOACÁN DE OCAMPO",
+          "type": "Extreme Poverty",
+          "population": 4695278,
+          "percentage": 0.060561483260416105,
+          "postal": "MI",
+          "year": 2018
+        },
+        {
+          "ent": 17,
+          "state": "MORELOS",
+          "type": "Extreme Poverty",
+          "population": 1994133,
+          "percentage": 0.07370320836172914,
+          "postal": "MO",
+          "year": 2018
+        },
+        {
+          "ent": 18,
+          "state": "NAYARIT",
+          "type": "Extreme Poverty",
+          "population": 1296947,
+          "percentage": 0.058788832542887255,
+          "postal": "NA",
+          "year": 2018
+        },
+        {
+          "ent": 19,
+          "state": "NUEVO LEÓN",
+          "type": "Extreme Poverty",
+          "population": 5321301,
+          "percentage": 0.004741885490033358,
+          "postal": "NL",
+          "year": 2018
+        },
+        {
+          "ent": 20,
+          "state": "OAXACA",
+          "type": "Extreme Poverty",
+          "population": 4091380,
+          "percentage": 0.23264717528071213,
+          "postal": "OA",
+          "year": 2018
+        },
+        {
+          "ent": 21,
+          "state": "PUEBLA",
+          "type": "Extreme Poverty",
+          "population": 6388085,
+          "percentage": 0.08639881905140585,
+          "postal": "PU",
+          "year": 2018
+        },
+        {
+          "ent": 22,
+          "state": "QUERÉTARO",
+          "type": "Extreme Poverty",
+          "population": 2100009,
+          "percentage": 0.0196165825955984,
+          "postal": "QT",
+          "year": 2018
+        },
+        {
+          "ent": 23,
+          "state": "QUINTANA ROO",
+          "type": "Extreme Poverty",
+          "population": 1722567,
+          "percentage": 0.034705761807813575,
+          "postal": "QR",
+          "year": 2018
+        },
+        {
+          "ent": 24,
+          "state": "SAN LUIS POTOSÍ",
+          "type": "Extreme Poverty",
+          "population": 2831855,
+          "percentage": 0.07330071631492431,
+          "postal": "SL",
+          "year": 2018
+        },
+        {
+          "ent": 25,
+          "state": "SINALOA",
+          "type": "Extreme Poverty",
+          "population": 3066439,
+          "percentage": 0.026840579577809963,
+          "postal": "SI",
+          "year": 2018
+        },
+        {
+          "ent": 26,
+          "state": "SONORA",
+          "type": "Extreme Poverty",
+          "population": 3061963,
+          "percentage": 0.026331147698388256,
+          "postal": "SO",
+          "year": 2018
+        },
+        {
+          "ent": 27,
+          "state": "TABASCO",
+          "type": "Extreme Poverty",
+          "population": 2460882,
+          "percentage": 0.12292218806102853,
+          "postal": "TB",
+          "year": 2018
+        },
+        {
+          "ent": 28,
+          "state": "TAMAULIPAS",
+          "type": "Extreme Poverty",
+          "population": 3672328,
+          "percentage": 0.0331702396953649,
+          "postal": "TM",
+          "year": 2018
+        },
+        {
+          "ent": 29,
+          "state": "TLAXCALA",
+          "type": "Extreme Poverty",
+          "population": 1334803,
+          "percentage": 0.03127577627560022,
+          "postal": "TL",
+          "year": 2018
+        },
+        {
+          "ent": 30,
+          "state": "VERACRUZ DE IGNACIO DE LA LLAVE",
+          "type": "Extreme Poverty",
+          "population": 8236730,
+          "percentage": 0.17699402554168947,
+          "postal": "VE",
+          "year": 2018
+        },
+        {
+          "ent": 31,
+          "state": "YUCATAN",
+          "type": "Extreme Poverty",
+          "population": 2207156,
+          "percentage": 0.06664957075983755,
+          "postal": "YU",
+          "year": 2018
+        },
+        {
+          "ent": 32,
+          "state": "ZACATECAS",
+          "type": "Extreme Poverty",
+          "population": 1615040,
+          "percentage": 0.03369204477907668,
+          "postal": "ZA",
+          "year": 2018
+        }
+      ]
+    },
+    {
+      "name": "data-30334fc4baae4d4ac167a417342de000",
+      "values": [
+        {
+          "ent": 1,
+          "state": "AGUASCALIENTES",
+          "type": "Moderate Poverty",
+          "population": 1238279,
+          "percentage": 0.3436866812729603,
+          "postal": "AG",
+          "year": 2012
+        },
+        {
+          "ent": 2,
+          "state": "BAJA CALIFORNIA",
+          "type": "Moderate Poverty",
+          "population": 3343793,
+          "percentage": 0.2747260371679706,
+          "postal": "BC",
+          "year": 2012
+        },
+        {
+          "ent": 3,
+          "state": "BAJA CALIFORNIA SUR",
+          "type": "Moderate Poverty",
+          "population": 701794,
+          "percentage": 0.264332553427359,
+          "postal": "BS",
+          "year": 2012
+        },
+        {
+          "ent": 4,
+          "state": "CAMPECHE",
+          "type": "Moderate Poverty",
+          "population": 868475,
+          "percentage": 0.3421595325138893,
+          "postal": "CM",
+          "year": 2012
+        },
+        {
+          "ent": 5,
+          "state": "COAHUILA DE ZARAGOZA",
+          "type": "Moderate Poverty",
+          "population": 2862143,
+          "percentage": 0.24687375857879917,
+          "postal": "CO",
+          "year": 2012
+        },
+        {
+          "ent": 6,
+          "state": "COLIMA",
+          "type": "Moderate Poverty",
+          "population": 689208,
+          "percentage": 0.3043609476384488,
+          "postal": "CL",
+          "year": 2012
+        },
+        {
+          "ent": 7,
+          "state": "CHIAPAS",
+          "type": "Moderate Poverty",
+          "population": 5064198,
+          "percentage": 0.42516465588430785,
+          "postal": "CS",
+          "year": 2012
+        },
+        {
+          "ent": 8,
+          "state": "CHIHUAHUA",
+          "type": "Moderate Poverty",
+          "population": 3610061,
+          "percentage": 0.3147921877220357,
+          "postal": "CH",
+          "year": 2012
+        },
+        {
+          "ent": 9,
+          "state": "CIUDAD DE MÉXICO",
+          "type": "Moderate Poverty",
+          "population": 8874778,
+          "percentage": 0.2643779934551602,
+          "postal": "DF",
+          "year": 2012
+        },
+        {
+          "ent": 10,
+          "state": "DURANGO",
+          "type": "Moderate Poverty",
+          "population": 1715364,
+          "percentage": 0.42593117262575175,
+          "postal": "DG",
+          "year": 2012
+        },
+        {
+          "ent": 11,
+          "state": "GUANAJUATO",
+          "type": "Moderate Poverty",
+          "population": 5680323,
+          "percentage": 0.37568250960376726,
+          "postal": "GJ",
+          "year": 2012
+        },
+        {
+          "ent": 12,
+          "state": "GUERRERO",
+          "type": "Moderate Poverty",
+          "population": 3505076,
+          "percentage": 0.37984711315817404,
+          "postal": "GR",
+          "year": 2012
+        },
+        {
+          "ent": 13,
+          "state": "HIDALGO",
+          "type": "Moderate Poverty",
+          "population": 2777755,
+          "percentage": 0.42811335052947436,
+          "postal": "HG",
+          "year": 2012
+        },
+        {
+          "ent": 14,
+          "state": "JALISCO",
+          "type": "Moderate Poverty",
+          "population": 7667912,
+          "percentage": 0.33970303780220745,
+          "postal": "JA",
+          "year": 2012
+        },
+        {
+          "ent": 15,
+          "state": "MÉXICO",
+          "type": "Moderate Poverty",
+          "population": 16165954,
+          "percentage": 0.39484635425784337,
+          "postal": "MX",
+          "year": 2012
+        },
+        {
+          "ent": 16,
+          "state": "MICHOACÁN DE OCAMPO",
+          "type": "Moderate Poverty",
+          "population": 4502198,
+          "percentage": 0.3992150056483522,
+          "postal": "MI",
+          "year": 2012
+        },
+        {
+          "ent": 17,
+          "state": "MORELOS",
+          "type": "Moderate Poverty",
+          "population": 1855788,
+          "percentage": 0.39138252860779355,
+          "postal": "MO",
+          "year": 2012
+        },
+        {
+          "ent": 18,
+          "state": "NAYARIT",
+          "type": "Moderate Poverty",
+          "population": 1162298,
+          "percentage": 0.35693083873498876,
+          "postal": "NA",
+          "year": 2012
+        },
+        {
+          "ent": 19,
+          "state": "NUEVO LEÓN",
+          "type": "Moderate Poverty",
+          "population": 4873250,
+          "percentage": 0.2083504847894116,
+          "postal": "NL",
+          "year": 2012
+        },
+        {
+          "ent": 20,
+          "state": "OAXACA",
+          "type": "Moderate Poverty",
+          "population": 3930738,
+          "percentage": 0.38618931101487813,
+          "postal": "OA",
+          "year": 2012
+        },
+        {
+          "ent": 21,
+          "state": "PUEBLA",
+          "type": "Moderate Poverty",
+          "population": 6015348,
+          "percentage": 0.4686415482529024,
+          "postal": "PU",
+          "year": 2012
+        },
+        {
+          "ent": 22,
+          "state": "QUERÉTARO",
+          "type": "Moderate Poverty",
+          "population": 1916292,
+          "percentage": 0.3176582691990573,
+          "postal": "QT",
+          "year": 2012
+        },
+        {
+          "ent": 23,
+          "state": "QUINTANA ROO",
+          "type": "Moderate Poverty",
+          "population": 1452036,
+          "percentage": 0.30380307375299237,
+          "postal": "QR",
+          "year": 2012
+        },
+        {
+          "ent": 24,
+          "state": "SAN LUIS POTOSÍ",
+          "type": "Moderate Poverty",
+          "population": 2679773,
+          "percentage": 0.3773506188770467,
+          "postal": "SL",
+          "year": 2012
+        },
+        {
+          "ent": 25,
+          "state": "SINALOA",
+          "type": "Moderate Poverty",
+          "population": 2911104,
+          "percentage": 0.31787115815855427,
+          "postal": "SI",
+          "year": 2012
+        },
+        {
+          "ent": 26,
+          "state": "SONORA",
+          "type": "Moderate Poverty",
+          "population": 2820397,
+          "percentage": 0.2416170489473645,
+          "postal": "SO",
+          "year": 2012
+        },
+        {
+          "ent": 27,
+          "state": "TABASCO",
+          "type": "Moderate Poverty",
+          "population": 2313144,
+          "percentage": 0.3538902031174886,
+          "postal": "TB",
+          "year": 2012
+        },
+        {
+          "ent": 28,
+          "state": "TAMAULIPAS",
+          "type": "Moderate Poverty",
+          "population": 3429728,
+          "percentage": 0.33689668685096896,
+          "postal": "TM",
+          "year": 2012
+        },
+        {
+          "ent": 29,
+          "state": "TLAXCALA",
+          "type": "Moderate Poverty",
+          "population": 1229936,
+          "percentage": 0.487533497677928,
+          "postal": "TL",
+          "year": 2012
+        },
+        {
+          "ent": 30,
+          "state": "VERACRUZ DE IGNACIO DE LA LLAVE",
+          "type": "Moderate Poverty",
+          "population": 7867441,
+          "percentage": 0.3838359893642672,
+          "postal": "VE",
+          "year": 2012
+        },
+        {
+          "ent": 31,
+          "state": "YUCATAN",
+          "type": "Moderate Poverty",
+          "population": 2040412,
+          "percentage": 0.39024716576848206,
+          "postal": "YU",
+          "year": 2012
+        },
+        {
+          "ent": 32,
+          "state": "ZACATECAS",
+          "type": "Moderate Poverty",
+          "population": 1541155,
+          "percentage": 0.467325479916037,
+          "postal": "ZA",
+          "year": 2012
+        },
+        {
+          "ent": 1,
+          "state": "AGUASCALIENTES",
+          "type": "Moderate Poverty",
+          "population": 1273851,
+          "percentage": 0.32669205425124287,
+          "postal": "AG",
+          "year": 2014
+        },
+        {
+          "ent": 2,
+          "state": "BAJA CALIFORNIA",
+          "type": "Moderate Poverty",
+          "population": 3444107,
+          "percentage": 0.2553344016315405,
+          "postal": "BC",
+          "year": 2014
+        },
+        {
+          "ent": 3,
+          "state": "BAJA CALIFORNIA SUR",
+          "type": "Moderate Poverty",
+          "population": 747567,
+          "percentage": 0.26316972258004967,
+          "postal": "BS",
+          "year": 2014
+        },
+        {
+          "ent": 4,
+          "state": "CAMPECHE",
+          "type": "Moderate Poverty",
+          "population": 896946,
+          "percentage": 0.32525146441368824,
+          "postal": "CM",
+          "year": 2014
+        },
+        {
+          "ent": 5,
+          "state": "COAHUILA DE ZARAGOZA",
+          "type": "Moderate Poverty",
+          "population": 2935848,
+          "percentage": 0.26434542932740385,
+          "postal": "CO",
+          "year": 2014
+        },
+        {
+          "ent": 6,
+          "state": "COLIMA",
+          "type": "Moderate Poverty",
+          "population": 713154,
+          "percentage": 0.309304862624342,
+          "postal": "CL",
+          "year": 2014
+        },
+        {
+          "ent": 7,
+          "state": "CHIAPAS",
+          "type": "Moderate Poverty",
+          "population": 5197565,
+          "percentage": 0.4437910829397997,
+          "postal": "CS",
+          "year": 2014
+        },
+        {
+          "ent": 8,
+          "state": "CHIHUAHUA",
+          "type": "Moderate Poverty",
+          "population": 3679912,
+          "percentage": 0.28947186780553447,
+          "postal": "CH",
+          "year": 2014
+        },
+        {
+          "ent": 9,
+          "state": "CIUDAD DE MÉXICO",
+          "type": "Moderate Poverty",
+          "population": 8820096,
+          "percentage": 0.26665662142452873,
+          "postal": "DF",
+          "year": 2014
+        },
+        {
+          "ent": 10,
+          "state": "DURANGO",
+          "type": "Moderate Poverty",
+          "population": 1751418,
+          "percentage": 0.3815451251500213,
+          "postal": "DG",
+          "year": 2014
+        },
+        {
+          "ent": 11,
+          "state": "GUANAJUATO",
+          "type": "Moderate Poverty",
+          "population": 5763682,
+          "percentage": 0.41044682895413037,
+          "postal": "GJ",
+          "year": 2014
+        },
+        {
+          "ent": 12,
+          "state": "GUERRERO",
+          "type": "Moderate Poverty",
+          "population": 3550275,
+          "percentage": 0.4076568716507876,
+          "postal": "GR",
+          "year": 2014
+        },
+        {
+          "ent": 13,
+          "state": "HIDALGO",
+          "type": "Moderate Poverty",
+          "population": 2850296,
+          "percentage": 0.42008128278606854,
+          "postal": "HG",
+          "year": 2014
+        },
+        {
+          "ent": 14,
+          "state": "JALISCO",
+          "type": "Moderate Poverty",
+          "population": 7860753,
+          "percentage": 0.3214702204737892,
+          "postal": "JA",
+          "year": 2014
+        },
+        {
+          "ent": 15,
+          "state": "MÉXICO",
+          "type": "Moderate Poverty",
+          "population": 16673086,
+          "percentage": 0.4236167197842079,
+          "postal": "MX",
+          "year": 2014
+        },
+        {
+          "ent": 16,
+          "state": "MICHOACÁN DE OCAMPO",
+          "type": "Moderate Poverty",
+          "population": 4571735,
+          "percentage": 0.45207782165851695,
+          "postal": "MI",
+          "year": 2014
+        },
+        {
+          "ent": 17,
+          "state": "MORELOS",
+          "type": "Moderate Poverty",
+          "population": 1901076,
+          "percentage": 0.4442031775689136,
+          "postal": "MO",
+          "year": 2014
+        },
+        {
+          "ent": 18,
+          "state": "NAYARIT",
+          "type": "Moderate Poverty",
+          "population": 1206884,
+          "percentage": 0.320403617911912,
+          "postal": "NA",
+          "year": 2014
+        },
+        {
+          "ent": 19,
+          "state": "NUEVO LEÓN",
+          "type": "Moderate Poverty",
+          "population": 5021727,
+          "percentage": 0.19037693606203604,
+          "postal": "NL",
+          "year": 2014
+        },
+        {
+          "ent": 20,
+          "state": "OAXACA",
+          "type": "Moderate Poverty",
+          "population": 3989130,
+          "percentage": 0.3841566958208933,
+          "postal": "OA",
+          "year": 2014
+        },
+        {
+          "ent": 21,
+          "state": "PUEBLA",
+          "type": "Moderate Poverty",
+          "population": 6134172,
+          "percentage": 0.4837637418709485,
+          "postal": "PU",
+          "year": 2014
+        },
+        {
+          "ent": 22,
+          "state": "QUERÉTARO",
+          "type": "Moderate Poverty",
+          "population": 1977098,
+          "percentage": 0.30325203909973103,
+          "postal": "QT",
+          "year": 2014
+        },
+        {
+          "ent": 23,
+          "state": "QUINTANA ROO",
+          "type": "Moderate Poverty",
+          "population": 1541196,
+          "percentage": 0.2890294290927306,
+          "postal": "QR",
+          "year": 2014
+        },
+        {
+          "ent": 24,
+          "state": "SAN LUIS POTOSÍ",
+          "type": "Moderate Poverty",
+          "population": 2725175,
+          "percentage": 0.3961683194657224,
+          "postal": "SL",
+          "year": 2014
+        },
+        {
+          "ent": 25,
+          "state": "SINALOA",
+          "type": "Moderate Poverty",
+          "population": 2964398,
+          "percentage": 0.3411205243020674,
+          "postal": "SI",
+          "year": 2014
+        },
+        {
+          "ent": 26,
+          "state": "SONORA",
+          "type": "Moderate Poverty",
+          "population": 2902359,
+          "percentage": 0.26064659816376956,
+          "postal": "SO",
+          "year": 2014
+        },
+        {
+          "ent": 27,
+          "state": "TABASCO",
+          "type": "Moderate Poverty",
+          "population": 2359842,
+          "percentage": 0.3854130912154288,
+          "postal": "TB",
+          "year": 2014
+        },
+        {
+          "ent": 28,
+          "state": "TAMAULIPAS",
+          "type": "Moderate Poverty",
+          "population": 3508919,
+          "percentage": 0.336029985303166,
+          "postal": "TM",
+          "year": 2014
+        },
+        {
+          "ent": 29,
+          "state": "TLAXCALA",
+          "type": "Moderate Poverty",
+          "population": 1264496,
+          "percentage": 0.5239241563437133,
+          "postal": "TL",
+          "year": 2014
+        },
+        {
+          "ent": 30,
+          "state": "VERACRUZ DE IGNACIO DE LA LLAVE",
+          "type": "Moderate Poverty",
+          "population": 7989354,
+          "percentage": 0.4085165083434781,
+          "postal": "VE",
+          "year": 2014
+        },
+        {
+          "ent": 31,
+          "state": "YUCATAN",
+          "type": "Moderate Poverty",
+          "population": 2088925,
+          "percentage": 0.35170913268786574,
+          "postal": "YU",
+          "year": 2014
+        },
+        {
+          "ent": 32,
+          "state": "ZACATECAS",
+          "type": "Moderate Poverty",
+          "population": 1566101,
+          "percentage": 0.46635306407441157,
+          "postal": "ZA",
+          "year": 2014
+        },
+        {
+          "ent": 1,
+          "state": "AGUASCALIENTES",
+          "type": "Moderate Poverty",
+          "population": 1309930,
+          "percentage": 0.2591527791561381,
+          "postal": "AG",
+          "year": 2016
+        },
+        {
+          "ent": 2,
+          "state": "BAJA CALIFORNIA",
+          "type": "Moderate Poverty",
+          "population": 3549320,
+          "percentage": 0.2111469239178209,
+          "postal": "BC",
+          "year": 2016
+        },
+        {
+          "ent": 3,
+          "state": "BAJA CALIFORNIA SUR",
+          "type": "Moderate Poverty",
+          "population": 793825,
+          "percentage": 0.20518250244071426,
+          "postal": "BS",
+          "year": 2016
+        },
+        {
+          "ent": 4,
+          "state": "CAMPECHE",
+          "type": "Moderate Poverty",
+          "population": 925421,
+          "percentage": 0.37110353017707615,
+          "postal": "CM",
+          "year": 2016
+        },
+        {
+          "ent": 5,
+          "state": "COAHUILA DE ZARAGOZA",
+          "type": "Moderate Poverty",
+          "population": 3005811,
+          "percentage": 0.23162134944612287,
+          "postal": "CO",
+          "year": 2016
+        },
+        {
+          "ent": 6,
+          "state": "COLIMA",
+          "type": "Moderate Poverty",
+          "population": 739454,
+          "percentage": 0.31024106976228405,
+          "postal": "CL",
+          "year": 2016
+        },
+        {
+          "ent": 7,
+          "state": "CHIAPAS",
+          "type": "Moderate Poverty",
+          "population": 5337151,
+          "percentage": 0.4900226731452792,
+          "postal": "CS",
+          "year": 2016
+        },
+        {
+          "ent": 8,
+          "state": "CHIHUAHUA",
+          "type": "Moderate Poverty",
+          "population": 3757012,
+          "percentage": 0.2739123537534615,
+          "postal": "CH",
+          "year": 2016
+        },
+        {
+          "ent": 9,
+          "state": "CIUDAD DE MÉXICO",
+          "type": "Moderate Poverty",
+          "population": 8821845,
+          "percentage": 0.2583695360777706,
+          "postal": "DF",
+          "year": 2016
+        },
+        {
+          "ent": 10,
+          "state": "DURANGO",
+          "type": "Moderate Poverty",
+          "population": 1787492,
+          "percentage": 0.3321603677107366,
+          "postal": "DG",
+          "year": 2016
+        },
+        {
+          "ent": 11,
+          "state": "GUANAJUATO",
+          "type": "Moderate Poverty",
+          "population": 5877529,
+          "percentage": 0.37977439158530735,
+          "postal": "GJ",
+          "year": 2016
+        },
+        {
+          "ent": 12,
+          "state": "GUERRERO",
+          "type": "Moderate Poverty",
+          "population": 3593873,
+          "percentage": 0.4144570495395914,
+          "postal": "GR",
+          "year": 2016
+        },
+        {
+          "ent": 13,
+          "state": "HIDALGO",
+          "type": "Moderate Poverty",
+          "population": 2921427,
+          "percentage": 0.42601749076735446,
+          "postal": "HG",
+          "year": 2016
+        },
+        {
+          "ent": 14,
+          "state": "JALISCO",
+          "type": "Moderate Poverty",
+          "population": 8048629,
+          "percentage": 0.30013943989715514,
+          "postal": "JA",
+          "year": 2016
+        },
+        {
+          "ent": 15,
+          "state": "MÉXICO",
+          "type": "Moderate Poverty",
+          "population": 17190721,
+          "percentage": 0.4172740631413889,
+          "postal": "MX",
+          "year": 2016
+        },
+        {
+          "ent": 16,
+          "state": "MICHOACÁN DE OCAMPO",
+          "type": "Moderate Poverty",
+          "population": 4636713,
+          "percentage": 0.45948908202858363,
+          "postal": "MI",
+          "year": 2016
+        },
+        {
+          "ent": 17,
+          "state": "MORELOS",
+          "type": "Moderate Poverty",
+          "population": 1949458,
+          "percentage": 0.4362592064050623,
+          "postal": "MO",
+          "year": 2016
+        },
+        {
+          "ent": 18,
+          "state": "NAYARIT",
+          "type": "Moderate Poverty",
+          "population": 1252827,
+          "percentage": 0.29595387072596613,
+          "postal": "NA",
+          "year": 2016
+        },
+        {
+          "ent": 19,
+          "state": "NUEVO LEÓN",
+          "type": "Moderate Poverty",
+          "population": 5178910,
+          "percentage": 0.1363750287222601,
+          "postal": "NL",
+          "year": 2016
+        },
+        {
+          "ent": 20,
+          "state": "OAXACA",
+          "type": "Moderate Poverty",
+          "population": 4044455,
+          "percentage": 0.4352094410742609,
+          "postal": "OA",
+          "year": 2016
+        },
+        {
+          "ent": 21,
+          "state": "PUEBLA",
+          "type": "Moderate Poverty",
+          "population": 6272194,
+          "percentage": 0.5048211200099997,
+          "postal": "PU",
+          "year": 2016
+        },
+        {
+          "ent": 22,
+          "state": "QUERÉTARO",
+          "type": "Moderate Poverty",
+          "population": 2042725,
+          "percentage": 0.28195816862279555,
+          "postal": "QT",
+          "year": 2016
+        },
+        {
+          "ent": 23,
+          "state": "QUINTANA ROO",
+          "type": "Moderate Poverty",
+          "population": 1632900,
+          "percentage": 0.24609896503153897,
+          "postal": "QR",
+          "year": 2016
+        },
+        {
+          "ent": 24,
+          "state": "SAN LUIS POTOSÍ",
+          "type": "Moderate Poverty",
+          "population": 2784951,
+          "percentage": 0.37843322916633004,
+          "postal": "SL",
+          "year": 2016
+        },
+        {
+          "ent": 25,
+          "state": "SINALOA",
+          "type": "Moderate Poverty",
+          "population": 3017801,
+          "percentage": 0.2792095966566384,
+          "postal": "SI",
+          "year": 2016
+        },
+        {
+          "ent": 26,
+          "state": "SONORA",
+          "type": "Moderate Poverty",
+          "population": 2983907,
+          "percentage": 0.2533932860508052,
+          "postal": "SO",
+          "year": 2016
+        },
+        {
+          "ent": 27,
+          "state": "TABASCO",
+          "type": "Moderate Poverty",
+          "population": 2415042,
+          "percentage": 0.3908250870999345,
+          "postal": "TB",
+          "year": 2016
+        },
+        {
+          "ent": 28,
+          "state": "TAMAULIPAS",
+          "type": "Moderate Poverty",
+          "population": 3594962,
+          "percentage": 0.29280476400028704,
+          "postal": "TM",
+          "year": 2016
+        },
+        {
+          "ent": 29,
+          "state": "TLAXCALA",
+          "type": "Moderate Poverty",
+          "population": 1300859,
+          "percentage": 0.4820145765221288,
+          "postal": "TL",
+          "year": 2016
+        },
+        {
+          "ent": 30,
+          "state": "VERACRUZ DE IGNACIO DE LA LLAVE",
+          "type": "Moderate Poverty",
+          "population": 8123403,
+          "percentage": 0.45756710580528875,
+          "postal": "VE",
+          "year": 2016
+        },
+        {
+          "ent": 31,
+          "state": "YUCATAN",
+          "type": "Moderate Poverty",
+          "population": 2153877,
+          "percentage": 0.3572390623977135,
+          "postal": "YU",
+          "year": 2016
+        },
+        {
+          "ent": 32,
+          "state": "ZACATECAS",
+          "type": "Moderate Poverty",
+          "population": 1592270,
+          "percentage": 0.45479786719589016,
+          "postal": "ZA",
+          "year": 2016
+        },
+        {
+          "ent": 1,
+          "state": "AGUASCALIENTES",
+          "type": "Moderate Poverty",
+          "population": 1342587,
+          "percentage": 0.2501737317581654,
+          "postal": "AG",
+          "year": 2018
+        },
+        {
+          "ent": 2,
+          "state": "BAJA CALIFORNIA",
+          "type": "Moderate Poverty",
+          "population": 3648116,
+          "percentage": 0.21631384528342848,
+          "postal": "BC",
+          "year": 2018
+        },
+        {
+          "ent": 3,
+          "state": "BAJA CALIFORNIA SUR",
+          "type": "Moderate Poverty",
+          "population": 839675,
+          "percentage": 0.1657295977610385,
+          "postal": "BS",
+          "year": 2018
+        },
+        {
+          "ent": 4,
+          "state": "CAMPECHE",
+          "type": "Moderate Poverty",
+          "population": 952279,
+          "percentage": 0.3647849002235689,
+          "postal": "CM",
+          "year": 2018
+        },
+        {
+          "ent": 5,
+          "state": "COAHUILA DE ZARAGOZA",
+          "type": "Moderate Poverty",
+          "population": 3073513,
+          "percentage": 0.2103781568517849,
+          "postal": "CO",
+          "year": 2018
+        },
+        {
+          "ent": 6,
+          "state": "COLIMA",
+          "type": "Moderate Poverty",
+          "population": 763300,
+          "percentage": 0.28477924800209614,
+          "postal": "CL",
+          "year": 2018
+        },
+        {
+          "ent": 7,
+          "state": "CHIAPAS",
+          "type": "Moderate Poverty",
+          "population": 5463342,
+          "percentage": 0.46698705664042267,
+          "postal": "CS",
+          "year": 2018
+        },
+        {
+          "ent": 8,
+          "state": "CHIHUAHUA",
+          "type": "Moderate Poverty",
+          "population": 3826880,
+          "percentage": 0.2367186846726315,
+          "postal": "CH",
+          "year": 2018
+        },
+        {
+          "ent": 9,
+          "state": "CIUDAD DE MÉXICO",
+          "type": "Moderate Poverty",
+          "population": 8781315,
+          "percentage": 0.28804319170875886,
+          "postal": "DF",
+          "year": 2018
+        },
+        {
+          "ent": 10,
+          "state": "DURANGO",
+          "type": "Moderate Poverty",
+          "population": 1820740,
+          "percentage": 0.35130221777958415,
+          "postal": "DG",
+          "year": 2018
+        },
+        {
+          "ent": 11,
+          "state": "GUANAJUATO",
+          "type": "Moderate Poverty",
+          "population": 5964968,
+          "percentage": 0.3913806411031878,
+          "postal": "GJ",
+          "year": 2018
+        },
+        {
+          "ent": 12,
+          "state": "GUERRERO",
+          "type": "Moderate Poverty",
+          "population": 3629032,
+          "percentage": 0.3970094504540054,
+          "postal": "GR",
+          "year": 2018
+        },
+        {
+          "ent": 13,
+          "state": "HIDALGO",
+          "type": "Moderate Poverty",
+          "population": 2990303,
+          "percentage": 0.37776439377548027,
+          "postal": "HG",
+          "year": 2018
+        },
+        {
+          "ent": 14,
+          "state": "JALISCO",
+          "type": "Moderate Poverty",
+          "population": 8222691,
+          "percentage": 0.25455437885237325,
+          "postal": "JA",
+          "year": 2018
+        },
+        {
+          "ent": 15,
+          "state": "MÉXICO",
+          "type": "Moderate Poverty",
+          "population": 17666779,
+          "percentage": 0.37815574644364996,
+          "postal": "MX",
+          "year": 2018
+        },
+        {
+          "ent": 16,
+          "state": "MICHOACÁN DE OCAMPO",
+          "type": "Moderate Poverty",
+          "population": 4695278,
+          "percentage": 0.3998836703598807,
+          "postal": "MI",
+          "year": 2018
+        },
+        {
+          "ent": 17,
+          "state": "MORELOS",
+          "type": "Moderate Poverty",
+          "population": 1994133,
+          "percentage": 0.4344524663099201,
+          "postal": "MO",
+          "year": 2018
+        },
+        {
+          "ent": 18,
+          "state": "NAYARIT",
+          "type": "Moderate Poverty",
+          "population": 1296947,
+          "percentage": 0.28891542985179813,
+          "postal": "NA",
+          "year": 2018
+        },
+        {
+          "ent": 19,
+          "state": "NUEVO LEÓN",
+          "type": "Moderate Poverty",
+          "population": 5321301,
+          "percentage": 0.14052860381324042,
+          "postal": "NL",
+          "year": 2018
+        },
+        {
+          "ent": 20,
+          "state": "OAXACA",
+          "type": "Moderate Poverty",
+          "population": 4091380,
+          "percentage": 0.4308690466297435,
+          "postal": "OA",
+          "year": 2018
+        },
+        {
+          "ent": 21,
+          "state": "PUEBLA",
+          "type": "Moderate Poverty",
+          "population": 6388085,
+          "percentage": 0.5027683570271843,
+          "postal": "PU",
+          "year": 2018
+        },
+        {
+          "ent": 22,
+          "state": "QUERÉTARO",
+          "type": "Moderate Poverty",
+          "population": 2100009,
+          "percentage": 0.2561912829897396,
+          "postal": "QT",
+          "year": 2018
+        },
+        {
+          "ent": 23,
+          "state": "QUINTANA ROO",
+          "type": "Moderate Poverty",
+          "population": 1722567,
+          "percentage": 0.24094853785077736,
+          "postal": "QR",
+          "year": 2018
+        },
+        {
+          "ent": 24,
+          "state": "SAN LUIS POTOSÍ",
+          "type": "Moderate Poverty",
+          "population": 2831855,
+          "percentage": 0.3606904308306746,
+          "postal": "SL",
+          "year": 2018
+        },
+        {
+          "ent": 25,
+          "state": "SINALOA",
+          "type": "Moderate Poverty",
+          "population": 3066439,
+          "percentage": 0.2819436486426112,
+          "postal": "SI",
+          "year": 2018
+        },
+        {
+          "ent": 26,
+          "state": "SONORA",
+          "type": "Moderate Poverty",
+          "population": 3061963,
+          "percentage": 0.2555236624348498,
+          "postal": "SO",
+          "year": 2018
+        },
+        {
+          "ent": 27,
+          "state": "TABASCO",
+          "type": "Moderate Poverty",
+          "population": 2460882,
+          "percentage": 0.4135407549000724,
+          "postal": "TB",
+          "year": 2018
+        },
+        {
+          "ent": 28,
+          "state": "TAMAULIPAS",
+          "type": "Moderate Poverty",
+          "population": 3672328,
+          "percentage": 0.3175323663899303,
+          "postal": "TM",
+          "year": 2018
+        },
+        {
+          "ent": 29,
+          "state": "TLAXCALA",
+          "type": "Moderate Poverty",
+          "population": 1334803,
+          "percentage": 0.4525117189577788,
+          "postal": "TL",
+          "year": 2018
+        },
+        {
+          "ent": 30,
+          "state": "VERACRUZ DE IGNACIO DE LA LLAVE",
+          "type": "Moderate Poverty",
+          "population": 8236730,
+          "percentage": 0.4407951942093525,
+          "postal": "VE",
+          "year": 2018
+        },
+        {
+          "ent": 31,
+          "state": "YUCATAN",
+          "type": "Moderate Poverty",
+          "population": 2207156,
+          "percentage": 0.3413306535650403,
+          "postal": "YU",
+          "year": 2018
+        },
+        {
+          "ent": 32,
+          "state": "ZACATECAS",
+          "type": "Moderate Poverty",
+          "population": 1615040,
+          "percentage": 0.4339211412720428,
+          "postal": "ZA",
+          "year": 2018
+        }
+      ]
+    },
+    {
+      "name": "data-3bd6ea1769f03d89e386d501e7f0f226",
+      "values": [
+        {
+          "ent": 1,
+          "state": "AGUASCALIENTES",
+          "type": "Income Vulnerability",
+          "population": 1238279,
+          "percentage": 0.10129381181462337,
+          "postal": "AG",
+          "year": 2012
+        },
+        {
+          "ent": 2,
+          "state": "BAJA CALIFORNIA",
+          "type": "Income Vulnerability",
+          "population": 3343793,
+          "percentage": 0.08612165884670492,
+          "postal": "BC",
+          "year": 2012
+        },
+        {
+          "ent": 3,
+          "state": "BAJA CALIFORNIA SUR",
+          "type": "Income Vulnerability",
+          "population": 701794,
+          "percentage": 0.07915143190166915,
+          "postal": "BS",
+          "year": 2012
+        },
+        {
+          "ent": 4,
+          "state": "CAMPECHE",
+          "type": "Income Vulnerability",
+          "population": 868475,
+          "percentage": 0.05571490255908345,
+          "postal": "CM",
+          "year": 2012
+        },
+        {
+          "ent": 5,
+          "state": "COAHUILA DE ZARAGOZA",
+          "type": "Income Vulnerability",
+          "population": 2862143,
+          "percentage": 0.1274513537583552,
+          "postal": "CO",
+          "year": 2012
+        },
+        {
+          "ent": 6,
+          "state": "COLIMA",
+          "type": "Income Vulnerability",
+          "population": 689208,
+          "percentage": 0.06265307425334588,
+          "postal": "CL",
+          "year": 2012
+        },
+        {
+          "ent": 7,
+          "state": "CHIAPAS",
+          "type": "Income Vulnerability",
+          "population": 5064198,
+          "percentage": 0.017304023262913495,
+          "postal": "CS",
+          "year": 2012
+        },
+        {
+          "ent": 8,
+          "state": "CHIHUAHUA",
+          "type": "Income Vulnerability",
+          "population": 3610061,
+          "percentage": 0.10717464330935128,
+          "postal": "CH",
+          "year": 2012
+        },
+        {
+          "ent": 9,
+          "state": "CIUDAD DE MÉXICO",
+          "type": "Income Vulnerability",
+          "population": 8874778,
+          "percentage": 0.06592897309656646,
+          "postal": "DF",
+          "year": 2012
+        },
+        {
+          "ent": 10,
+          "state": "DURANGO",
+          "type": "Income Vulnerability",
+          "population": 1715364,
+          "percentage": 0.11128541813865746,
+          "postal": "DG",
+          "year": 2012
+        },
+        {
+          "ent": 11,
+          "state": "GUANAJUATO",
+          "type": "Income Vulnerability",
+          "population": 5680323,
+          "percentage": 0.04870145588551918,
+          "postal": "GJ",
+          "year": 2012
+        },
+        {
+          "ent": 12,
+          "state": "GUERRERO",
+          "type": "Income Vulnerability",
+          "population": 3505076,
+          "percentage": 0.022500225387409575,
+          "postal": "GR",
+          "year": 2012
+        },
+        {
+          "ent": 13,
+          "state": "HIDALGO",
+          "type": "Income Vulnerability",
+          "population": 2777755,
+          "percentage": 0.030070686579629954,
+          "postal": "HG",
+          "year": 2012
+        },
+        {
+          "ent": 14,
+          "state": "JALISCO",
+          "type": "Income Vulnerability",
+          "population": 7667912,
+          "percentage": 0.0808011359546119,
+          "postal": "JA",
+          "year": 2012
+        },
+        {
+          "ent": 15,
+          "state": "MÉXICO",
+          "type": "Income Vulnerability",
+          "population": 16165954,
+          "percentage": 0.07813148546630777,
+          "postal": "MX",
+          "year": 2012
+        },
+        {
+          "ent": 16,
+          "state": "MICHOACÁN DE OCAMPO",
+          "type": "Income Vulnerability",
+          "population": 4502198,
+          "percentage": 0.03501667407786153,
+          "postal": "MI",
+          "year": 2012
+        },
+        {
+          "ent": 17,
+          "state": "MORELOS",
+          "type": "Income Vulnerability",
+          "population": 1855788,
+          "percentage": 0.04601118231177268,
+          "postal": "MO",
+          "year": 2012
+        },
+        {
+          "ent": 18,
+          "state": "NAYARIT",
+          "type": "Income Vulnerability",
+          "population": 1162298,
+          "percentage": 0.055620847665572855,
+          "postal": "NA",
+          "year": 2012
+        },
+        {
+          "ent": 19,
+          "state": "NUEVO LEÓN",
+          "type": "Income Vulnerability",
+          "population": 4873250,
+          "percentage": 0.08421484635510183,
+          "postal": "NL",
+          "year": 2012
+        },
+        {
+          "ent": 20,
+          "state": "OAXACA",
+          "type": "Income Vulnerability",
+          "population": 3930738,
+          "percentage": 0.01655745053473419,
+          "postal": "OA",
+          "year": 2012
+        },
+        {
+          "ent": 21,
+          "state": "PUEBLA",
+          "type": "Income Vulnerability",
+          "population": 6015348,
+          "percentage": 0.04220520575035725,
+          "postal": "PU",
+          "year": 2012
+        },
+        {
+          "ent": 22,
+          "state": "QUERÉTARO",
+          "type": "Income Vulnerability",
+          "population": 1916292,
+          "percentage": 0.06418906930676535,
+          "postal": "QT",
+          "year": 2012
+        },
+        {
+          "ent": 23,
+          "state": "QUINTANA ROO",
+          "type": "Income Vulnerability",
+          "population": 1452036,
+          "percentage": 0.061893782247823055,
+          "postal": "QR",
+          "year": 2012
+        },
+        {
+          "ent": 24,
+          "state": "SAN LUIS POTOSÍ",
+          "type": "Income Vulnerability",
+          "population": 2679773,
+          "percentage": 0.06560891538201183,
+          "postal": "SL",
+          "year": 2012
+        },
+        {
+          "ent": 25,
+          "state": "SINALOA",
+          "type": "Income Vulnerability",
+          "population": 2911104,
+          "percentage": 0.06377030844655499,
+          "postal": "SI",
+          "year": 2012
+        },
+        {
+          "ent": 26,
+          "state": "SONORA",
+          "type": "Income Vulnerability",
+          "population": 2820397,
+          "percentage": 0.04716073659133803,
+          "postal": "SO",
+          "year": 2012
+        },
+        {
+          "ent": 27,
+          "state": "TABASCO",
+          "type": "Income Vulnerability",
+          "population": 2313144,
+          "percentage": 0.030061249969738156,
+          "postal": "TB",
+          "year": 2012
+        },
+        {
+          "ent": 28,
+          "state": "TAMAULIPAS",
+          "type": "Income Vulnerability",
+          "population": 3429728,
+          "percentage": 0.08835452840575113,
+          "postal": "TM",
+          "year": 2012
+        },
+        {
+          "ent": 29,
+          "state": "TLAXCALA",
+          "type": "Income Vulnerability",
+          "population": 1229936,
+          "percentage": 0.06034053804425596,
+          "postal": "TL",
+          "year": 2012
+        },
+        {
+          "ent": 30,
+          "state": "VERACRUZ DE IGNACIO DE LA LLAVE",
+          "type": "Income Vulnerability",
+          "population": 7867441,
+          "percentage": 0.03985069605224875,
+          "postal": "VE",
+          "year": 2012
+        },
+        {
+          "ent": 31,
+          "state": "YUCATAN",
+          "type": "Income Vulnerability",
+          "population": 2040412,
+          "percentage": 0.06251678582560777,
+          "postal": "YU",
+          "year": 2012
+        },
+        {
+          "ent": 32,
+          "state": "ZACATECAS",
+          "type": "Income Vulnerability",
+          "population": 1541155,
+          "percentage": 0.06413631334940353,
+          "postal": "ZA",
+          "year": 2012
+        },
+        {
+          "ent": 1,
+          "state": "AGUASCALIENTES",
+          "type": "Income Vulnerability",
+          "population": 1273851,
+          "percentage": 0.0891831148226912,
+          "postal": "AG",
+          "year": 2014
+        },
+        {
+          "ent": 2,
+          "state": "BAJA CALIFORNIA",
+          "type": "Income Vulnerability",
+          "population": 3444107,
+          "percentage": 0.06582257752154623,
+          "postal": "BC",
+          "year": 2014
+        },
+        {
+          "ent": 3,
+          "state": "BAJA CALIFORNIA SUR",
+          "type": "Income Vulnerability",
+          "population": 747567,
+          "percentage": 0.05599498105186559,
+          "postal": "BS",
+          "year": 2014
+        },
+        {
+          "ent": 4,
+          "state": "CAMPECHE",
+          "type": "Income Vulnerability",
+          "population": 896946,
+          "percentage": 0.03997453581375021,
+          "postal": "CM",
+          "year": 2014
+        },
+        {
+          "ent": 5,
+          "state": "COAHUILA DE ZARAGOZA",
+          "type": "Income Vulnerability",
+          "population": 2935848,
+          "percentage": 0.11080921083107845,
+          "postal": "CO",
+          "year": 2014
+        },
+        {
+          "ent": 6,
+          "state": "COLIMA",
+          "type": "Income Vulnerability",
+          "population": 713154,
+          "percentage": 0.06358654652431313,
+          "postal": "CL",
+          "year": 2014
+        },
+        {
+          "ent": 7,
+          "state": "CHIAPAS",
+          "type": "Income Vulnerability",
+          "population": 5197565,
+          "percentage": 0.024968999906687075,
+          "postal": "CS",
+          "year": 2014
+        },
+        {
+          "ent": 8,
+          "state": "CHIHUAHUA",
+          "type": "Income Vulnerability",
+          "population": 3679912,
+          "percentage": 0.11970367769664057,
+          "postal": "CH",
+          "year": 2014
+        },
+        {
+          "ent": 9,
+          "state": "CIUDAD DE MÉXICO",
+          "type": "Income Vulnerability",
+          "population": 8820096,
+          "percentage": 0.08006239387870608,
+          "postal": "DF",
+          "year": 2014
+        },
+        {
+          "ent": 10,
+          "state": "DURANGO",
+          "type": "Income Vulnerability",
+          "population": 1751418,
+          "percentage": 0.10484590200626007,
+          "postal": "DG",
+          "year": 2014
+        },
+        {
+          "ent": 11,
+          "state": "GUANAJUATO",
+          "type": "Income Vulnerability",
+          "population": 5763682,
+          "percentage": 0.08579654463934686,
+          "postal": "GJ",
+          "year": 2014
+        },
+        {
+          "ent": 12,
+          "state": "GUERRERO",
+          "type": "Income Vulnerability",
+          "population": 3550275,
+          "percentage": 0.026471470519889306,
+          "postal": "GR",
+          "year": 2014
+        },
+        {
+          "ent": 13,
+          "state": "HIDALGO",
+          "type": "Income Vulnerability",
+          "population": 2850296,
+          "percentage": 0.051047680661938266,
+          "postal": "HG",
+          "year": 2014
+        },
+        {
+          "ent": 14,
+          "state": "JALISCO",
+          "type": "Income Vulnerability",
+          "population": 7860753,
+          "percentage": 0.078819039346485,
+          "postal": "JA",
+          "year": 2014
+        },
+        {
+          "ent": 15,
+          "state": "MÉXICO",
+          "type": "Income Vulnerability",
+          "population": 16673086,
+          "percentage": 0.09320734026082514,
+          "postal": "MX",
+          "year": 2014
+        },
+        {
+          "ent": 16,
+          "state": "MICHOACÁN DE OCAMPO",
+          "type": "Income Vulnerability",
+          "population": 4571735,
+          "percentage": 0.040777516632088256,
+          "postal": "MI",
+          "year": 2014
+        },
+        {
+          "ent": 17,
+          "state": "MORELOS",
+          "type": "Income Vulnerability",
+          "population": 1901076,
+          "percentage": 0.06141942773460924,
+          "postal": "MO",
+          "year": 2014
+        },
+        {
+          "ent": 18,
+          "state": "NAYARIT",
+          "type": "Income Vulnerability",
+          "population": 1206884,
+          "percentage": 0.0651197629598205,
+          "postal": "NA",
+          "year": 2014
+        },
+        {
+          "ent": 19,
+          "state": "NUEVO LEÓN",
+          "type": "Income Vulnerability",
+          "population": 5021727,
+          "percentage": 0.09124988275945706,
+          "postal": "NL",
+          "year": 2014
+        },
+        {
+          "ent": 20,
+          "state": "OAXACA",
+          "type": "Income Vulnerability",
+          "population": 3989130,
+          "percentage": 0.020951184844815788,
+          "postal": "OA",
+          "year": 2014
+        },
+        {
+          "ent": 21,
+          "state": "PUEBLA",
+          "type": "Income Vulnerability",
+          "population": 6134172,
+          "percentage": 0.05120104229226047,
+          "postal": "PU",
+          "year": 2014
+        },
+        {
+          "ent": 22,
+          "state": "QUERÉTARO",
+          "type": "Income Vulnerability",
+          "population": 1977098,
+          "percentage": 0.07827077868674188,
+          "postal": "QT",
+          "year": 2014
+        },
+        {
+          "ent": 23,
+          "state": "QUINTANA ROO",
+          "type": "Income Vulnerability",
+          "population": 1541196,
+          "percentage": 0.06250924606604222,
+          "postal": "QR",
+          "year": 2014
+        },
+        {
+          "ent": 24,
+          "state": "SAN LUIS POTOSÍ",
+          "type": "Income Vulnerability",
+          "population": 2725175,
+          "percentage": 0.07639252525067197,
+          "postal": "SL",
+          "year": 2014
+        },
+        {
+          "ent": 25,
+          "state": "SINALOA",
+          "type": "Income Vulnerability",
+          "population": 2964398,
+          "percentage": 0.06901131359554284,
+          "postal": "SI",
+          "year": 2014
+        },
+        {
+          "ent": 26,
+          "state": "SONORA",
+          "type": "Income Vulnerability",
+          "population": 2902359,
+          "percentage": 0.07266778506725047,
+          "postal": "SO",
+          "year": 2014
+        },
+        {
+          "ent": 27,
+          "state": "TABASCO",
+          "type": "Income Vulnerability",
+          "population": 2359842,
+          "percentage": 0.02348547063744098,
+          "postal": "TB",
+          "year": 2014
+        },
+        {
+          "ent": 28,
+          "state": "TAMAULIPAS",
+          "type": "Income Vulnerability",
+          "population": 3508919,
+          "percentage": 0.11222202621377125,
+          "postal": "TM",
+          "year": 2014
+        },
+        {
+          "ent": 29,
+          "state": "TLAXCALA",
+          "type": "Income Vulnerability",
+          "population": 1264496,
+          "percentage": 0.07661945945261986,
+          "postal": "TL",
+          "year": 2014
+        },
+        {
+          "ent": 30,
+          "state": "VERACRUZ DE IGNACIO DE LA LLAVE",
+          "type": "Income Vulnerability",
+          "population": 7989354,
+          "percentage": 0.050179651571328546,
+          "postal": "VE",
+          "year": 2014
+        },
+        {
+          "ent": 31,
+          "state": "YUCATAN",
+          "type": "Income Vulnerability",
+          "population": 2088925,
+          "percentage": 0.06954677645200283,
+          "postal": "YU",
+          "year": 2014
+        },
+        {
+          "ent": 32,
+          "state": "ZACATECAS",
+          "type": "Income Vulnerability",
+          "population": 1566101,
+          "percentage": 0.07325389614079807,
+          "postal": "ZA",
+          "year": 2014
+        },
+        {
+          "ent": 1,
+          "state": "AGUASCALIENTES",
+          "type": "Income Vulnerability",
+          "population": 1309930,
+          "percentage": 0.10622476010168483,
+          "postal": "AG",
+          "year": 2016
+        },
+        {
+          "ent": 2,
+          "state": "BAJA CALIFORNIA",
+          "type": "Income Vulnerability",
+          "population": 3549320,
+          "percentage": 0.06731683815491418,
+          "postal": "BC",
+          "year": 2016
+        },
+        {
+          "ent": 3,
+          "state": "BAJA CALIFORNIA SUR",
+          "type": "Income Vulnerability",
+          "population": 793825,
+          "percentage": 0.06450288161748496,
+          "postal": "BS",
+          "year": 2016
+        },
+        {
+          "ent": 4,
+          "state": "CAMPECHE",
+          "type": "Income Vulnerability",
+          "population": 925421,
+          "percentage": 0.04795979343455573,
+          "postal": "CM",
+          "year": 2016
+        },
+        {
+          "ent": 5,
+          "state": "COAHUILA DE ZARAGOZA",
+          "type": "Income Vulnerability",
+          "population": 3005811,
+          "percentage": 0.13031458065726687,
+          "postal": "CO",
+          "year": 2016
+        },
+        {
+          "ent": 6,
+          "state": "COLIMA",
+          "type": "Income Vulnerability",
+          "population": 739454,
+          "percentage": 0.06952697530880893,
+          "postal": "CL",
+          "year": 2016
+        },
+        {
+          "ent": 7,
+          "state": "CHIAPAS",
+          "type": "Income Vulnerability",
+          "population": 5337151,
+          "percentage": 0.027270916636984787,
+          "postal": "CS",
+          "year": 2016
+        },
+        {
+          "ent": 8,
+          "state": "CHIHUAHUA",
+          "type": "Income Vulnerability",
+          "population": 3757012,
+          "percentage": 0.11122029953590779,
+          "postal": "CH",
+          "year": 2016
+        },
+        {
+          "ent": 9,
+          "state": "CIUDAD DE MÉXICO",
+          "type": "Income Vulnerability",
+          "population": 8821845,
+          "percentage": 0.06793091467827875,
+          "postal": "DF",
+          "year": 2016
+        },
+        {
+          "ent": 10,
+          "state": "DURANGO",
+          "type": "Income Vulnerability",
+          "population": 1787492,
+          "percentage": 0.0939338469766578,
+          "postal": "DG",
+          "year": 2016
+        },
+        {
+          "ent": 11,
+          "state": "GUANAJUATO",
+          "type": "Income Vulnerability",
+          "population": 5877529,
+          "percentage": 0.08201814061657543,
+          "postal": "GJ",
+          "year": 2016
+        },
+        {
+          "ent": 12,
+          "state": "GUERRERO",
+          "type": "Income Vulnerability",
+          "population": 3593873,
+          "percentage": 0.03216557735902187,
+          "postal": "GR",
+          "year": 2016
+        },
+        {
+          "ent": 13,
+          "state": "HIDALGO",
+          "type": "Income Vulnerability",
+          "population": 2921427,
+          "percentage": 0.04655327687462326,
+          "postal": "HG",
+          "year": 2016
+        },
+        {
+          "ent": 14,
+          "state": "JALISCO",
+          "type": "Income Vulnerability",
+          "population": 8048629,
+          "percentage": 0.07783772863676534,
+          "postal": "JA",
+          "year": 2016
+        },
+        {
+          "ent": 15,
+          "state": "MÉXICO",
+          "type": "Income Vulnerability",
+          "population": 17190721,
+          "percentage": 0.0956319400448649,
+          "postal": "MX",
+          "year": 2016
+        },
+        {
+          "ent": 16,
+          "state": "MICHOACÁN DE OCAMPO",
+          "type": "Income Vulnerability",
+          "population": 4636713,
+          "percentage": 0.0472979457645966,
+          "postal": "MI",
+          "year": 2016
+        },
+        {
+          "ent": 17,
+          "state": "MORELOS",
+          "type": "Income Vulnerability",
+          "population": 1949458,
+          "percentage": 0.07938770673694945,
+          "postal": "MO",
+          "year": 2016
+        },
+        {
+          "ent": 18,
+          "state": "NAYARIT",
+          "type": "Income Vulnerability",
+          "population": 1252827,
+          "percentage": 0.05975765209402416,
+          "postal": "NA",
+          "year": 2016
+        },
+        {
+          "ent": 19,
+          "state": "NUEVO LEÓN",
+          "type": "Income Vulnerability",
+          "population": 5178910,
+          "percentage": 0.053278585648331406,
+          "postal": "NL",
+          "year": 2016
+        },
+        {
+          "ent": 20,
+          "state": "OAXACA",
+          "type": "Income Vulnerability",
+          "population": 4044455,
+          "percentage": 0.023280021659284132,
+          "postal": "OA",
+          "year": 2016
+        },
+        {
+          "ent": 21,
+          "state": "PUEBLA",
+          "type": "Income Vulnerability",
+          "population": 6272194,
+          "percentage": 0.06206042096274446,
+          "postal": "PU",
+          "year": 2016
+        },
+        {
+          "ent": 22,
+          "state": "QUERÉTARO",
+          "type": "Income Vulnerability",
+          "population": 2042725,
+          "percentage": 0.08932724669253081,
+          "postal": "QT",
+          "year": 2016
+        },
+        {
+          "ent": 23,
+          "state": "QUINTANA ROO",
+          "type": "Income Vulnerability",
+          "population": 1632900,
+          "percentage": 0.04311654112315512,
+          "postal": "QR",
+          "year": 2016
+        },
+        {
+          "ent": 24,
+          "state": "SAN LUIS POTOSÍ",
+          "type": "Income Vulnerability",
+          "population": 2784951,
+          "percentage": 0.07958955112675233,
+          "postal": "SL",
+          "year": 2016
+        },
+        {
+          "ent": 25,
+          "state": "SINALOA",
+          "type": "Income Vulnerability",
+          "population": 3017801,
+          "percentage": 0.07420403134600327,
+          "postal": "SI",
+          "year": 2016
+        },
+        {
+          "ent": 26,
+          "state": "SONORA",
+          "type": "Income Vulnerability",
+          "population": 2983907,
+          "percentage": 0.0819090541360706,
+          "postal": "SO",
+          "year": 2016
+        },
+        {
+          "ent": 27,
+          "state": "TABASCO",
+          "type": "Income Vulnerability",
+          "population": 2415042,
+          "percentage": 0.025937023041421224,
+          "postal": "TB",
+          "year": 2016
+        },
+        {
+          "ent": 28,
+          "state": "TAMAULIPAS",
+          "type": "Income Vulnerability",
+          "population": 3594962,
+          "percentage": 0.10093903635142736,
+          "postal": "TM",
+          "year": 2016
+        },
+        {
+          "ent": 29,
+          "state": "TLAXCALA",
+          "type": "Income Vulnerability",
+          "population": 1300859,
+          "percentage": 0.08249856441013208,
+          "postal": "TL",
+          "year": 2016
+        },
+        {
+          "ent": 30,
+          "state": "VERACRUZ DE IGNACIO DE LA LLAVE",
+          "type": "Income Vulnerability",
+          "population": 8123403,
+          "percentage": 0.049729405275104534,
+          "postal": "VE",
+          "year": 2016
+        },
+        {
+          "ent": 31,
+          "state": "YUCATAN",
+          "type": "Income Vulnerability",
+          "population": 2153877,
+          "percentage": 0.057424356172613385,
+          "postal": "YU",
+          "year": 2016
+        },
+        {
+          "ent": 32,
+          "state": "ZACATECAS",
+          "type": "Income Vulnerability",
+          "population": 1592270,
+          "percentage": 0.08911553944996765,
+          "postal": "ZA",
+          "year": 2016
+        },
+        {
+          "ent": 1,
+          "state": "AGUASCALIENTES",
+          "type": "Income Vulnerability",
+          "population": 1342587,
+          "percentage": 0.10281121446878302,
+          "postal": "AG",
+          "year": 2018
+        },
+        {
+          "ent": 2,
+          "state": "BAJA CALIFORNIA",
+          "type": "Income Vulnerability",
+          "population": 3648116,
+          "percentage": 0.0675482906793534,
+          "postal": "BC",
+          "year": 2018
+        },
+        {
+          "ent": 3,
+          "state": "BAJA CALIFORNIA SUR",
+          "type": "Income Vulnerability",
+          "population": 839675,
+          "percentage": 0.04666091047131331,
+          "postal": "BS",
+          "year": 2018
+        },
+        {
+          "ent": 4,
+          "state": "CAMPECHE",
+          "type": "Income Vulnerability",
+          "population": 952279,
+          "percentage": 0.04594871881034865,
+          "postal": "CM",
+          "year": 2018
+        },
+        {
+          "ent": 5,
+          "state": "COAHUILA DE ZARAGOZA",
+          "type": "Income Vulnerability",
+          "population": 3073513,
+          "percentage": 0.11257573987811341,
+          "postal": "CO",
+          "year": 2018
+        },
+        {
+          "ent": 6,
+          "state": "COLIMA",
+          "type": "Income Vulnerability",
+          "population": 763300,
+          "percentage": 0.054078344032490504,
+          "postal": "CL",
+          "year": 2018
+        },
+        {
+          "ent": 7,
+          "state": "CHIAPAS",
+          "type": "Income Vulnerability",
+          "population": 5463342,
+          "percentage": 0.025048587476310287,
+          "postal": "CS",
+          "year": 2018
+        },
+        {
+          "ent": 8,
+          "state": "CHIHUAHUA",
+          "type": "Income Vulnerability",
+          "population": 3826880,
+          "percentage": 0.10241136382640689,
+          "postal": "CH",
+          "year": 2018
+        },
+        {
+          "ent": 9,
+          "state": "CIUDAD DE MÉXICO",
+          "type": "Income Vulnerability",
+          "population": 8781315,
+          "percentage": 0.07763074209272756,
+          "postal": "DF",
+          "year": 2018
+        },
+        {
+          "ent": 10,
+          "state": "DURANGO",
+          "type": "Income Vulnerability",
+          "population": 1820740,
+          "percentage": 0.10264947219262498,
+          "postal": "DG",
+          "year": 2018
+        },
+        {
+          "ent": 11,
+          "state": "GUANAJUATO",
+          "type": "Income Vulnerability",
+          "population": 5964968,
+          "percentage": 0.07469981398056116,
+          "postal": "GJ",
+          "year": 2018
+        },
+        {
+          "ent": 12,
+          "state": "GUERRERO",
+          "type": "Income Vulnerability",
+          "population": 3629032,
+          "percentage": 0.03041692660742589,
+          "postal": "GR",
+          "year": 2018
+        },
+        {
+          "ent": 13,
+          "state": "HIDALGO",
+          "type": "Income Vulnerability",
+          "population": 2990303,
+          "percentage": 0.03799247099708625,
+          "postal": "HG",
+          "year": 2018
+        },
+        {
+          "ent": 14,
+          "state": "JALISCO",
+          "type": "Income Vulnerability",
+          "population": 8222691,
+          "percentage": 0.07658368774893766,
+          "postal": "JA",
+          "year": 2018
+        },
+        {
+          "ent": 15,
+          "state": "MÉXICO",
+          "type": "Income Vulnerability",
+          "population": 17666779,
+          "percentage": 0.08724742637013799,
+          "postal": "MX",
+          "year": 2018
+        },
+        {
+          "ent": 16,
+          "state": "MICHOACÁN DE OCAMPO",
+          "type": "Income Vulnerability",
+          "population": 4695278,
+          "percentage": 0.04869871389936869,
+          "postal": "MI",
+          "year": 2018
+        },
+        {
+          "ent": 17,
+          "state": "MORELOS",
+          "type": "Income Vulnerability",
+          "population": 1994133,
+          "percentage": 0.05737982371286168,
+          "postal": "MO",
+          "year": 2018
+        },
+        {
+          "ent": 18,
+          "state": "NAYARIT",
+          "type": "Income Vulnerability",
+          "population": 1296947,
+          "percentage": 0.04896884760903877,
+          "postal": "NA",
+          "year": 2018
+        },
+        {
+          "ent": 19,
+          "state": "NUEVO LEÓN",
+          "type": "Income Vulnerability",
+          "population": 5321301,
+          "percentage": 0.06578917448947165,
+          "postal": "NL",
+          "year": 2018
+        },
+        {
+          "ent": 20,
+          "state": "OAXACA",
+          "type": "Income Vulnerability",
+          "population": 4091380,
+          "percentage": 0.026348811403487334,
+          "postal": "OA",
+          "year": 2018
+        },
+        {
+          "ent": 21,
+          "state": "PUEBLA",
+          "type": "Income Vulnerability",
+          "population": 6388085,
+          "percentage": 0.061239635978544434,
+          "postal": "PU",
+          "year": 2018
+        },
+        {
+          "ent": 22,
+          "state": "QUERÉTARO",
+          "type": "Income Vulnerability",
+          "population": 2100009,
+          "percentage": 0.06343639479640326,
+          "postal": "QT",
+          "year": 2018
+        },
+        {
+          "ent": 23,
+          "state": "QUINTANA ROO",
+          "type": "Income Vulnerability",
+          "population": 1722567,
+          "percentage": 0.04090058616007389,
+          "postal": "QR",
+          "year": 2018
+        },
+        {
+          "ent": 24,
+          "state": "SAN LUIS POTOSÍ",
+          "type": "Income Vulnerability",
+          "population": 2831855,
+          "percentage": 0.07375306998416233,
+          "postal": "SL",
+          "year": 2018
+        },
+        {
+          "ent": 25,
+          "state": "SINALOA",
+          "type": "Income Vulnerability",
+          "population": 3066439,
+          "percentage": 0.06474513270930875,
+          "postal": "SI",
+          "year": 2018
+        },
+        {
+          "ent": 26,
+          "state": "SONORA",
+          "type": "Income Vulnerability",
+          "population": 3061963,
+          "percentage": 0.08724239972854016,
+          "postal": "SO",
+          "year": 2018
+        },
+        {
+          "ent": 27,
+          "state": "TABASCO",
+          "type": "Income Vulnerability",
+          "population": 2460882,
+          "percentage": 0.02525314094702631,
+          "postal": "TB",
+          "year": 2018
+        },
+        {
+          "ent": 28,
+          "state": "TAMAULIPAS",
+          "type": "Income Vulnerability",
+          "population": 3672328,
+          "percentage": 0.13216548195041403,
+          "postal": "TM",
+          "year": 2018
+        },
+        {
+          "ent": 29,
+          "state": "TLAXCALA",
+          "type": "Income Vulnerability",
+          "population": 1334803,
+          "percentage": 0.07635958265002402,
+          "postal": "TL",
+          "year": 2018
+        },
+        {
+          "ent": 30,
+          "state": "VERACRUZ DE IGNACIO DE LA LLAVE",
+          "type": "Income Vulnerability",
+          "population": 8236730,
+          "percentage": 0.06146735415632174,
+          "postal": "VE",
+          "year": 2018
+        },
+        {
+          "ent": 31,
+          "state": "YUCATAN",
+          "type": "Income Vulnerability",
+          "population": 2207156,
+          "percentage": 0.05476006227017936,
+          "postal": "YU",
+          "year": 2018
+        },
+        {
+          "ent": 32,
+          "state": "ZACATECAS",
+          "type": "Income Vulnerability",
+          "population": 1615040,
+          "percentage": 0.07729344164850406,
+          "postal": "ZA",
+          "year": 2018
+        }
+      ]
+    },
+    {
+      "name": "data-e5e64cc749ad765032b442531b6f0c14",
+      "values": [
+        {
+          "ent": 1,
+          "state": "AGUASCALIENTES",
+          "type": "Social Deprivations vulnerability",
+          "population": 1238279,
+          "percentage": 0.24480589592490867,
+          "postal": "AG",
+          "year": 2012
+        },
+        {
+          "ent": 2,
+          "state": "BAJA CALIFORNIA",
+          "type": "Social Deprivations vulnerability",
+          "population": 3343793,
+          "percentage": 0.37634476775326703,
+          "postal": "BC",
+          "year": 2012
+        },
+        {
+          "ent": 3,
+          "state": "BAJA CALIFORNIA SUR",
+          "type": "Social Deprivations vulnerability",
+          "population": 701794,
+          "percentage": 0.2995950378601128,
+          "postal": "BS",
+          "year": 2012
+        },
+        {
+          "ent": 4,
+          "state": "CAMPECHE",
+          "type": "Social Deprivations vulnerability",
+          "population": 868475,
+          "percentage": 0.28601859581450245,
+          "postal": "CM",
+          "year": 2012
+        },
+        {
+          "ent": 5,
+          "state": "COAHUILA DE ZARAGOZA",
+          "type": "Social Deprivations vulnerability",
+          "population": 2862143,
+          "percentage": 0.2443392940185029,
+          "postal": "CO",
+          "year": 2012
+        },
+        {
+          "ent": 6,
+          "state": "COLIMA",
+          "type": "Social Deprivations vulnerability",
+          "population": 689208,
+          "percentage": 0.317426669452473,
+          "postal": "CL",
+          "year": 2012
+        },
+        {
+          "ent": 7,
+          "state": "CHIAPAS",
+          "type": "Social Deprivations vulnerability",
+          "population": 5064198,
+          "percentage": 0.17174427224212008,
+          "postal": "CS",
+          "year": 2012
+        },
+        {
+          "ent": 8,
+          "state": "CHIHUAHUA",
+          "type": "Social Deprivations vulnerability",
+          "population": 3610061,
+          "percentage": 0.2739851210270408,
+          "postal": "CH",
+          "year": 2012
+        },
+        {
+          "ent": 9,
+          "state": "CIUDAD DE MÉXICO",
+          "type": "Social Deprivations vulnerability",
+          "population": 8874778,
+          "percentage": 0.3236257853435883,
+          "postal": "DF",
+          "year": 2012
+        },
+        {
+          "ent": 10,
+          "state": "DURANGO",
+          "type": "Social Deprivations vulnerability",
+          "population": 1715364,
+          "percentage": 0.2177625273702841,
+          "postal": "DG",
+          "year": 2012
+        },
+        {
+          "ent": 11,
+          "state": "GUANAJUATO",
+          "type": "Social Deprivations vulnerability",
+          "population": 5680323,
+          "percentage": 0.32591755785718524,
+          "postal": "GJ",
+          "year": 2012
+        },
+        {
+          "ent": 12,
+          "state": "GUERRERO",
+          "type": "Social Deprivations vulnerability",
+          "population": 3505076,
+          "percentage": 0.2169516438445272,
+          "postal": "GR",
+          "year": 2012
+        },
+        {
+          "ent": 13,
+          "state": "HIDALGO",
+          "type": "Social Deprivations vulnerability",
+          "population": 2777755,
+          "percentage": 0.3068672363113378,
+          "postal": "HG",
+          "year": 2012
+        },
+        {
+          "ent": 14,
+          "state": "JALISCO",
+          "type": "Social Deprivations vulnerability",
+          "population": 7667912,
+          "percentage": 0.28340479129129287,
+          "postal": "JA",
+          "year": 2012
+        },
+        {
+          "ent": 15,
+          "state": "MÉXICO",
+          "type": "Social Deprivations vulnerability",
+          "population": 16165954,
+          "percentage": 0.29482281095195495,
+          "postal": "MX",
+          "year": 2012
+        },
+        {
+          "ent": 16,
+          "state": "MICHOACÁN DE OCAMPO",
+          "type": "Social Deprivations vulnerability",
+          "population": 4502198,
+          "percentage": 0.3067412850345542,
+          "postal": "MI",
+          "year": 2012
+        },
+        {
+          "ent": 17,
+          "state": "MORELOS",
+          "type": "Social Deprivations vulnerability",
+          "population": 1855788,
+          "percentage": 0.3204428523085611,
+          "postal": "MO",
+          "year": 2012
+        },
+        {
+          "ent": 18,
+          "state": "NAYARIT",
+          "type": "Social Deprivations vulnerability",
+          "population": 1162298,
+          "percentage": 0.28210407313787,
+          "postal": "NA",
+          "year": 2012
+        },
+        {
+          "ent": 19,
+          "state": "NUEVO LEÓN",
+          "type": "Social Deprivations vulnerability",
+          "population": 4873250,
+          "percentage": 0.29099143282203865,
+          "postal": "NL",
+          "year": 2012
+        },
+        {
+          "ent": 20,
+          "state": "OAXACA",
+          "type": "Social Deprivations vulnerability",
+          "population": 3930738,
+          "percentage": 0.26063070090145923,
+          "postal": "OA",
+          "year": 2012
+        },
+        {
+          "ent": 21,
+          "state": "PUEBLA",
+          "type": "Social Deprivations vulnerability",
+          "population": 6015348,
+          "percentage": 0.21958812690471108,
+          "postal": "PU",
+          "year": 2012
+        },
+        {
+          "ent": 22,
+          "state": "QUERÉTARO",
+          "type": "Social Deprivations vulnerability",
+          "population": 1916292,
+          "percentage": 0.3263771909500222,
+          "postal": "QT",
+          "year": 2012
+        },
+        {
+          "ent": 23,
+          "state": "QUINTANA ROO",
+          "type": "Social Deprivations vulnerability",
+          "population": 1452036,
+          "percentage": 0.304192871251126,
+          "postal": "QR",
+          "year": 2012
+        },
+        {
+          "ent": 24,
+          "state": "SAN LUIS POTOSÍ",
+          "type": "Social Deprivations vulnerability",
+          "population": 2679773,
+          "percentage": 0.2465514802932935,
+          "postal": "SL",
+          "year": 2012
+        },
+        {
+          "ent": 25,
+          "state": "SINALOA",
+          "type": "Social Deprivations vulnerability",
+          "population": 2911104,
+          "percentage": 0.3354071170250187,
+          "postal": "SI",
+          "year": 2012
+        },
+        {
+          "ent": 26,
+          "state": "SONORA",
+          "type": "Social Deprivations vulnerability",
+          "population": 2820397,
+          "percentage": 0.3655769028260915,
+          "postal": "SO",
+          "year": 2012
+        },
+        {
+          "ent": 27,
+          "state": "TABASCO",
+          "type": "Social Deprivations vulnerability",
+          "population": 2313144,
+          "percentage": 0.33951928630470046,
+          "postal": "TB",
+          "year": 2012
+        },
+        {
+          "ent": 28,
+          "state": "TAMAULIPAS",
+          "type": "Social Deprivations vulnerability",
+          "population": 3429728,
+          "percentage": 0.26785535179466125,
+          "postal": "TM",
+          "year": 2012
+        },
+        {
+          "ent": 29,
+          "state": "TLAXCALA",
+          "type": "Social Deprivations vulnerability",
+          "population": 1229936,
+          "percentage": 0.23923765138999104,
+          "postal": "TL",
+          "year": 2012
+        },
+        {
+          "ent": 30,
+          "state": "VERACRUZ DE IGNACIO DE LA LLAVE",
+          "type": "Social Deprivations vulnerability",
+          "population": 7867441,
+          "percentage": 0.30554051819390826,
+          "postal": "VE",
+          "year": 2012
+        },
+        {
+          "ent": 31,
+          "state": "YUCATAN",
+          "type": "Social Deprivations vulnerability",
+          "population": 2040412,
+          "percentage": 0.2702302280127739,
+          "postal": "YU",
+          "year": 2012
+        },
+        {
+          "ent": 32,
+          "state": "ZACATECAS",
+          "type": "Social Deprivations vulnerability",
+          "population": 1541155,
+          "percentage": 0.20419944781673485,
+          "postal": "ZA",
+          "year": 2012
+        },
+        {
+          "ent": 1,
+          "state": "AGUASCALIENTES",
+          "type": "Social Deprivations vulnerability",
+          "population": 1273851,
+          "percentage": 0.25310652501744707,
+          "postal": "AG",
+          "year": 2014
+        },
+        {
+          "ent": 2,
+          "state": "BAJA CALIFORNIA",
+          "type": "Social Deprivations vulnerability",
+          "population": 3444107,
+          "percentage": 0.38313240558437933,
+          "postal": "BC",
+          "year": 2014
+        },
+        {
+          "ent": 3,
+          "state": "BAJA CALIFORNIA SUR",
+          "type": "Social Deprivations vulnerability",
+          "population": 747567,
+          "percentage": 0.3436347511326744,
+          "postal": "BS",
+          "year": 2014
+        },
+        {
+          "ent": 4,
+          "state": "CAMPECHE",
+          "type": "Social Deprivations vulnerability",
+          "population": 896946,
+          "percentage": 0.3205165082401839,
+          "postal": "CM",
+          "year": 2014
+        },
+        {
+          "ent": 5,
+          "state": "COAHUILA DE ZARAGOZA",
+          "type": "Social Deprivations vulnerability",
+          "population": 2935848,
+          "percentage": 0.2420677092274532,
+          "postal": "CO",
+          "year": 2014
+        },
+        {
+          "ent": 6,
+          "state": "COLIMA",
+          "type": "Social Deprivations vulnerability",
+          "population": 713154,
+          "percentage": 0.33180210725874076,
+          "postal": "CL",
+          "year": 2014
+        },
+        {
+          "ent": 7,
+          "state": "CHIAPAS",
+          "type": "Social Deprivations vulnerability",
+          "population": 5197565,
+          "percentage": 0.1526349357824289,
+          "postal": "CS",
+          "year": 2014
+        },
+        {
+          "ent": 8,
+          "state": "CHIHUAHUA",
+          "type": "Social Deprivations vulnerability",
+          "population": 3679912,
+          "percentage": 0.25801867001167417,
+          "postal": "CH",
+          "year": 2014
+        },
+        {
+          "ent": 9,
+          "state": "CIUDAD DE MÉXICO",
+          "type": "Social Deprivations vulnerability",
+          "population": 8820096,
+          "percentage": 0.279527116258145,
+          "postal": "DF",
+          "year": 2014
+        },
+        {
+          "ent": 10,
+          "state": "DURANGO",
+          "type": "Social Deprivations vulnerability",
+          "population": 1751418,
+          "percentage": 0.24290831771741525,
+          "postal": "DG",
+          "year": 2014
+        },
+        {
+          "ent": 11,
+          "state": "GUANAJUATO",
+          "type": "Social Deprivations vulnerability",
+          "population": 5763682,
+          "percentage": 0.2767047175746337,
+          "postal": "GJ",
+          "year": 2014
+        },
+        {
+          "ent": 12,
+          "state": "GUERRERO",
+          "type": "Social Deprivations vulnerability",
+          "population": 3550275,
+          "percentage": 0.2615569216469147,
+          "postal": "GR",
+          "year": 2014
+        },
+        {
+          "ent": 13,
+          "state": "HIDALGO",
+          "type": "Social Deprivations vulnerability",
+          "population": 2850296,
+          "percentage": 0.2580886336015628,
+          "postal": "HG",
+          "year": 2014
+        },
+        {
+          "ent": 14,
+          "state": "JALISCO",
+          "type": "Social Deprivations vulnerability",
+          "population": 7860753,
+          "percentage": 0.2962120804457283,
+          "postal": "JA",
+          "year": 2014
+        },
+        {
+          "ent": 15,
+          "state": "MÉXICO",
+          "type": "Social Deprivations vulnerability",
+          "population": 16673086,
+          "percentage": 0.23659567281066024,
+          "postal": "MX",
+          "year": 2014
+        },
+        {
+          "ent": 16,
+          "state": "MICHOACÁN DE OCAMPO",
+          "type": "Social Deprivations vulnerability",
+          "population": 4571735,
+          "percentage": 0.24989199942691342,
+          "postal": "MI",
+          "year": 2014
+        },
+        {
+          "ent": 17,
+          "state": "MORELOS",
+          "type": "Social Deprivations vulnerability",
+          "population": 1901076,
+          "percentage": 0.25743263288790136,
+          "postal": "MO",
+          "year": 2014
+        },
+        {
+          "ent": 18,
+          "state": "NAYARIT",
+          "type": "Social Deprivations vulnerability",
+          "population": 1206884,
+          "percentage": 0.29446491957802073,
+          "postal": "NA",
+          "year": 2014
+        },
+        {
+          "ent": 19,
+          "state": "NUEVO LEÓN",
+          "type": "Social Deprivations vulnerability",
+          "population": 5021727,
+          "percentage": 0.28012773294924237,
+          "postal": "NL",
+          "year": 2014
+        },
+        {
+          "ent": 20,
+          "state": "OAXACA",
+          "type": "Social Deprivations vulnerability",
+          "population": 3989130,
+          "percentage": 0.23261112072055812,
+          "postal": "OA",
+          "year": 2014
+        },
+        {
+          "ent": 21,
+          "state": "PUEBLA",
+          "type": "Social Deprivations vulnerability",
+          "population": 6134172,
+          "percentage": 0.1984760127365193,
+          "postal": "PU",
+          "year": 2014
+        },
+        {
+          "ent": 22,
+          "state": "QUERÉTARO",
+          "type": "Social Deprivations vulnerability",
+          "population": 1977098,
+          "percentage": 0.3308713073403544,
+          "postal": "QT",
+          "year": 2014
+        },
+        {
+          "ent": 23,
+          "state": "QUINTANA ROO",
+          "type": "Social Deprivations vulnerability",
+          "population": 1541196,
+          "percentage": 0.341506206867913,
+          "postal": "QR",
+          "year": 2014
+        },
+        {
+          "ent": 24,
+          "state": "SAN LUIS POTOSÍ",
+          "type": "Social Deprivations vulnerability",
+          "population": 2725175,
+          "percentage": 0.243034300549506,
+          "postal": "SL",
+          "year": 2014
+        },
+        {
+          "ent": 25,
+          "state": "SINALOA",
+          "type": "Social Deprivations vulnerability",
+          "population": 2964398,
+          "percentage": 0.30368762898908985,
+          "postal": "SI",
+          "year": 2014
+        },
+        {
+          "ent": 26,
+          "state": "SONORA",
+          "type": "Social Deprivations vulnerability",
+          "population": 2902359,
+          "percentage": 0.3206309074790541,
+          "postal": "SO",
+          "year": 2014
+        },
+        {
+          "ent": 27,
+          "state": "TABASCO",
+          "type": "Social Deprivations vulnerability",
+          "population": 2359842,
+          "percentage": 0.37453736309464786,
+          "postal": "TB",
+          "year": 2014
+        },
+        {
+          "ent": 28,
+          "state": "TAMAULIPAS",
+          "type": "Social Deprivations vulnerability",
+          "population": 3508919,
+          "percentage": 0.2436750463604318,
+          "postal": "TM",
+          "year": 2014
+        },
+        {
+          "ent": 29,
+          "state": "TLAXCALA",
+          "type": "Social Deprivations vulnerability",
+          "population": 1264496,
+          "percentage": 0.22561320874087384,
+          "postal": "TL",
+          "year": 2014
+        },
+        {
+          "ent": 30,
+          "state": "VERACRUZ DE IGNACIO DE LA LLAVE",
+          "type": "Social Deprivations vulnerability",
+          "population": 7989354,
+          "percentage": 0.24767096313419082,
+          "postal": "VE",
+          "year": 2014
+        },
+        {
+          "ent": 31,
+          "state": "YUCATAN",
+          "type": "Social Deprivations vulnerability",
+          "population": 2088925,
+          "percentage": 0.2768275548428019,
+          "postal": "YU",
+          "year": 2014
+        },
+        {
+          "ent": 32,
+          "state": "ZACATECAS",
+          "type": "Social Deprivations vulnerability",
+          "population": 1566101,
+          "percentage": 0.24375567093054662,
+          "postal": "ZA",
+          "year": 2014
+        },
+        {
+          "ent": 1,
+          "state": "AGUASCALIENTES",
+          "type": "Social Deprivations vulnerability",
+          "population": 1309930,
+          "percentage": 0.2796783034207935,
+          "postal": "AG",
+          "year": 2016
+        },
+        {
+          "ent": 2,
+          "state": "BAJA CALIFORNIA",
+          "type": "Social Deprivations vulnerability",
+          "population": 3549320,
+          "percentage": 0.38028129331815674,
+          "postal": "BC",
+          "year": 2016
+        },
+        {
+          "ent": 3,
+          "state": "BAJA CALIFORNIA SUR",
+          "type": "Social Deprivations vulnerability",
+          "population": 793825,
+          "percentage": 0.37835543098289925,
+          "postal": "BS",
+          "year": 2016
+        },
+        {
+          "ent": 4,
+          "state": "CAMPECHE",
+          "type": "Social Deprivations vulnerability",
+          "population": 925421,
+          "percentage": 0.31332334148457835,
+          "postal": "CM",
+          "year": 2016
+        },
+        {
+          "ent": 5,
+          "state": "COAHUILA DE ZARAGOZA",
+          "type": "Social Deprivations vulnerability",
+          "population": 3005811,
+          "percentage": 0.24958887967340596,
+          "postal": "CO",
+          "year": 2016
+        },
+        {
+          "ent": 6,
+          "state": "COLIMA",
+          "type": "Social Deprivations vulnerability",
+          "population": 739454,
+          "percentage": 0.31324734195771475,
+          "postal": "CL",
+          "year": 2016
+        },
+        {
+          "ent": 7,
+          "state": "CHIAPAS",
+          "type": "Social Deprivations vulnerability",
+          "population": 5337151,
+          "percentage": 0.13798447898513644,
+          "postal": "CS",
+          "year": 2016
+        },
+        {
+          "ent": 8,
+          "state": "CHIHUAHUA",
+          "type": "Social Deprivations vulnerability",
+          "population": 3757012,
+          "percentage": 0.27322643632759225,
+          "postal": "CH",
+          "year": 2016
+        },
+        {
+          "ent": 9,
+          "state": "CIUDAD DE MÉXICO",
+          "type": "Social Deprivations vulnerability",
+          "population": 8821845,
+          "percentage": 0.2888979572867127,
+          "postal": "DF",
+          "year": 2016
+        },
+        {
+          "ent": 10,
+          "state": "DURANGO",
+          "type": "Social Deprivations vulnerability",
+          "population": 1787492,
+          "percentage": 0.2988528060545166,
+          "postal": "DG",
+          "year": 2016
+        },
+        {
+          "ent": 11,
+          "state": "GUANAJUATO",
+          "type": "Social Deprivations vulnerability",
+          "population": 5877529,
+          "percentage": 0.2995563271572118,
+          "postal": "GJ",
+          "year": 2016
+        },
+        {
+          "ent": 12,
+          "state": "GUERRERO",
+          "type": "Social Deprivations vulnerability",
+          "population": 3593873,
+          "percentage": 0.23820930789707928,
+          "postal": "GR",
+          "year": 2016
+        },
+        {
+          "ent": 13,
+          "state": "HIDALGO",
+          "type": "Social Deprivations vulnerability",
+          "population": 2921427,
+          "percentage": 0.3190310762514347,
+          "postal": "HG",
+          "year": 2016
+        },
+        {
+          "ent": 14,
+          "state": "JALISCO",
+          "type": "Social Deprivations vulnerability",
+          "population": 8048629,
+          "percentage": 0.3257057816927579,
+          "postal": "JA",
+          "year": 2016
+        },
+        {
+          "ent": 15,
+          "state": "MÉXICO",
+          "type": "Social Deprivations vulnerability",
+          "population": 17190721,
+          "percentage": 0.2132074041571613,
+          "postal": "MX",
+          "year": 2016
+        },
+        {
+          "ent": 16,
+          "state": "MICHOACÁN DE OCAMPO",
+          "type": "Social Deprivations vulnerability",
+          "population": 4636713,
+          "percentage": 0.27822597603086496,
+          "postal": "MI",
+          "year": 2016
+        },
+        {
+          "ent": 17,
+          "state": "MORELOS",
+          "type": "Social Deprivations vulnerability",
+          "population": 1949458,
+          "percentage": 0.24394729201655024,
+          "postal": "MO",
+          "year": 2016
+        },
+        {
+          "ent": 18,
+          "state": "NAYARIT",
+          "type": "Social Deprivations vulnerability",
+          "population": 1252827,
+          "percentage": 0.3142660558880037,
+          "postal": "NA",
+          "year": 2016
+        },
+        {
+          "ent": 19,
+          "state": "NUEVO LEÓN",
+          "type": "Social Deprivations vulnerability",
+          "population": 5178910,
+          "percentage": 0.34573665114860075,
+          "postal": "NL",
+          "year": 2016
+        },
+        {
+          "ent": 20,
+          "state": "OAXACA",
+          "type": "Social Deprivations vulnerability",
+          "population": 4044455,
+          "percentage": 0.19918184279464105,
+          "postal": "OA",
+          "year": 2016
+        },
+        {
+          "ent": 21,
+          "state": "PUEBLA",
+          "type": "Social Deprivations vulnerability",
+          "population": 6272194,
+          "percentage": 0.21479278223855958,
+          "postal": "PU",
+          "year": 2016
+        },
+        {
+          "ent": 22,
+          "state": "QUERÉTARO",
+          "type": "Social Deprivations vulnerability",
+          "population": 2042725,
+          "percentage": 0.32002692481856343,
+          "postal": "QT",
+          "year": 2016
+        },
+        {
+          "ent": 23,
+          "state": "QUINTANA ROO",
+          "type": "Social Deprivations vulnerability",
+          "population": 1632900,
+          "percentage": 0.384071284218262,
+          "postal": "QR",
+          "year": 2016
+        },
+        {
+          "ent": 24,
+          "state": "SAN LUIS POTOSÍ",
+          "type": "Social Deprivations vulnerability",
+          "population": 2784951,
+          "percentage": 0.24631133545976214,
+          "postal": "SL",
+          "year": 2016
+        },
+        {
+          "ent": 25,
+          "state": "SINALOA",
+          "type": "Social Deprivations vulnerability",
+          "population": 3017801,
+          "percentage": 0.32845174350462475,
+          "postal": "SI",
+          "year": 2016
+        },
+        {
+          "ent": 26,
+          "state": "SONORA",
+          "type": "Social Deprivations vulnerability",
+          "population": 2983907,
+          "percentage": 0.30923886032641096,
+          "postal": "SO",
+          "year": 2016
+        },
+        {
+          "ent": 27,
+          "state": "TABASCO",
+          "type": "Social Deprivations vulnerability",
+          "population": 2415042,
+          "percentage": 0.3543805863417696,
+          "postal": "TB",
+          "year": 2016
+        },
+        {
+          "ent": 28,
+          "state": "TAMAULIPAS",
+          "type": "Social Deprivations vulnerability",
+          "population": 3594962,
+          "percentage": 0.2856834091709453,
+          "postal": "TM",
+          "year": 2016
+        },
+        {
+          "ent": 29,
+          "state": "TLAXCALA",
+          "type": "Social Deprivations vulnerability",
+          "population": 1300859,
+          "percentage": 0.24423246485591443,
+          "postal": "TL",
+          "year": 2016
+        },
+        {
+          "ent": 30,
+          "state": "VERACRUZ DE IGNACIO DE LA LLAVE",
+          "type": "Social Deprivations vulnerability",
+          "population": 8123403,
+          "percentage": 0.19938245092604664,
+          "postal": "VE",
+          "year": 2016
+        },
+        {
+          "ent": 31,
+          "state": "YUCATAN",
+          "type": "Social Deprivations vulnerability",
+          "population": 2153877,
+          "percentage": 0.3247269923027174,
+          "postal": "YU",
+          "year": 2016
+        },
+        {
+          "ent": 32,
+          "state": "ZACATECAS",
+          "type": "Social Deprivations vulnerability",
+          "population": 1592270,
+          "percentage": 0.24377649519239827,
+          "postal": "ZA",
+          "year": 2016
+        },
+        {
+          "ent": 1,
+          "state": "AGUASCALIENTES",
+          "type": "Social Deprivations vulnerability",
+          "population": 1342587,
+          "percentage": 0.2962660892739167,
+          "postal": "AG",
+          "year": 2018
+        },
+        {
+          "ent": 2,
+          "state": "BAJA CALIFORNIA",
+          "type": "Social Deprivations vulnerability",
+          "population": 3648116,
+          "percentage": 0.3976778698922951,
+          "postal": "BC",
+          "year": 2018
+        },
+        {
+          "ent": 3,
+          "state": "BAJA CALIFORNIA SUR",
+          "type": "Social Deprivations vulnerability",
+          "population": 839675,
+          "percentage": 0.4328722422365796,
+          "postal": "BS",
+          "year": 2018
+        },
+        {
+          "ent": 4,
+          "state": "CAMPECHE",
+          "type": "Social Deprivations vulnerability",
+          "population": 952279,
+          "percentage": 0.3183688813887527,
+          "postal": "CM",
+          "year": 2018
+        },
+        {
+          "ent": 5,
+          "state": "COAHUILA DE ZARAGOZA",
+          "type": "Social Deprivations vulnerability",
+          "population": 3073513,
+          "percentage": 0.27352413996622105,
+          "postal": "CO",
+          "year": 2018
+        },
+        {
+          "ent": 6,
+          "state": "COLIMA",
+          "type": "Social Deprivations vulnerability",
+          "population": 763300,
+          "percentage": 0.3522258613913271,
+          "postal": "CL",
+          "year": 2018
+        },
+        {
+          "ent": 7,
+          "state": "CHIAPAS",
+          "type": "Social Deprivations vulnerability",
+          "population": 5463342,
+          "percentage": 0.15045241538970103,
+          "postal": "CS",
+          "year": 2018
+        },
+        {
+          "ent": 8,
+          "state": "CHIHUAHUA",
+          "type": "Social Deprivations vulnerability",
+          "population": 3826880,
+          "percentage": 0.3209807989798478,
+          "postal": "CH",
+          "year": 2018
+        },
+        {
+          "ent": 9,
+          "state": "CIUDAD DE MÉXICO",
+          "type": "Social Deprivations vulnerability",
+          "population": 8781315,
+          "percentage": 0.2836463559273298,
+          "postal": "DF",
+          "year": 2018
+        },
+        {
+          "ent": 10,
+          "state": "DURANGO",
+          "type": "Social Deprivations vulnerability",
+          "population": 1820740,
+          "percentage": 0.2706893900282303,
+          "postal": "DG",
+          "year": 2018
+        },
+        {
+          "ent": 11,
+          "state": "GUANAJUATO",
+          "type": "Social Deprivations vulnerability",
+          "population": 5964968,
+          "percentage": 0.2942247133597364,
+          "postal": "GJ",
+          "year": 2018
+        },
+        {
+          "ent": 12,
+          "state": "GUERRERO",
+          "type": "Social Deprivations vulnerability",
+          "population": 3629032,
+          "percentage": 0.23237436319106583,
+          "postal": "GR",
+          "year": 2018
+        },
+        {
+          "ent": 13,
+          "state": "HIDALGO",
+          "type": "Social Deprivations vulnerability",
+          "population": 2990303,
+          "percentage": 0.3886265037355746,
+          "postal": "HG",
+          "year": 2018
+        },
+        {
+          "ent": 14,
+          "state": "JALISCO",
+          "type": "Social Deprivations vulnerability",
+          "population": 8222691,
+          "percentage": 0.3651698695718956,
+          "postal": "JA",
+          "year": 2018
+        },
+        {
+          "ent": 15,
+          "state": "MÉXICO",
+          "type": "Social Deprivations vulnerability",
+          "population": 17666779,
+          "percentage": 0.28122681559553103,
+          "postal": "MX",
+          "year": 2018
+        },
+        {
+          "ent": 16,
+          "state": "MICHOACÁN DE OCAMPO",
+          "type": "Social Deprivations vulnerability",
+          "population": 4695278,
+          "percentage": 0.3480909969548129,
+          "postal": "MI",
+          "year": 2018
+        },
+        {
+          "ent": 17,
+          "state": "MORELOS",
+          "type": "Social Deprivations vulnerability",
+          "population": 1994133,
+          "percentage": 0.29427776382016646,
+          "postal": "MO",
+          "year": 2018
+        },
+        {
+          "ent": 18,
+          "state": "NAYARIT",
+          "type": "Social Deprivations vulnerability",
+          "population": 1296947,
+          "percentage": 0.3593909388741406,
+          "postal": "NA",
+          "year": 2018
+        },
+        {
+          "ent": 19,
+          "state": "NUEVO LEÓN",
+          "type": "Social Deprivations vulnerability",
+          "population": 5321301,
+          "percentage": 0.3444167131308678,
+          "postal": "NL",
+          "year": 2018
+        },
+        {
+          "ent": 20,
+          "state": "OAXACA",
+          "type": "Social Deprivations vulnerability",
+          "population": 4091380,
+          "percentage": 0.225083468169664,
+          "postal": "OA",
+          "year": 2018
+        },
+        {
+          "ent": 21,
+          "state": "PUEBLA",
+          "type": "Social Deprivations vulnerability",
+          "population": 6388085,
+          "percentage": 0.23229637677019013,
+          "postal": "PU",
+          "year": 2018
+        },
+        {
+          "ent": 22,
+          "state": "QUERÉTARO",
+          "type": "Social Deprivations vulnerability",
+          "population": 2100009,
+          "percentage": 0.3801893229981395,
+          "postal": "QT",
+          "year": 2018
+        },
+        {
+          "ent": 23,
+          "state": "QUINTANA ROO",
+          "type": "Social Deprivations vulnerability",
+          "population": 1722567,
+          "percentage": 0.41217148592768815,
+          "postal": "QR",
+          "year": 2018
+        },
+        {
+          "ent": 24,
+          "state": "SAN LUIS POTOSÍ",
+          "type": "Social Deprivations vulnerability",
+          "population": 2831855,
+          "percentage": 0.27713248030001536,
+          "postal": "SL",
+          "year": 2018
+        },
+        {
+          "ent": 25,
+          "state": "SINALOA",
+          "type": "Social Deprivations vulnerability",
+          "population": 3066439,
+          "percentage": 0.34538107557332787,
+          "postal": "SI",
+          "year": 2018
+        },
+        {
+          "ent": 26,
+          "state": "SONORA",
+          "type": "Social Deprivations vulnerability",
+          "population": 3061963,
+          "percentage": 0.3008782274638851,
+          "postal": "SO",
+          "year": 2018
+        },
+        {
+          "ent": 27,
+          "state": "TABASCO",
+          "type": "Social Deprivations vulnerability",
+          "population": 2460882,
+          "percentage": 0.3339266165545524,
+          "postal": "TB",
+          "year": 2018
+        },
+        {
+          "ent": 28,
+          "state": "TAMAULIPAS",
+          "type": "Social Deprivations vulnerability",
+          "population": 3672328,
+          "percentage": 0.2568969874150675,
+          "postal": "TM",
+          "year": 2018
+        },
+        {
+          "ent": 29,
+          "state": "TLAXCALA",
+          "type": "Social Deprivations vulnerability",
+          "population": 1334803,
+          "percentage": 0.28614784353945866,
+          "postal": "TL",
+          "year": 2018
+        },
+        {
+          "ent": 30,
+          "state": "VERACRUZ DE IGNACIO DE LA LLAVE",
+          "type": "Social Deprivations vulnerability",
+          "population": 8236730,
+          "percentage": 0.21149121071104673,
+          "postal": "VE",
+          "year": 2018
+        },
+        {
+          "ent": 31,
+          "state": "YUCATAN",
+          "type": "Social Deprivations vulnerability",
+          "population": 2207156,
+          "percentage": 0.3328786003345482,
+          "postal": "YU",
+          "year": 2018
+        },
+        {
+          "ent": 32,
+          "state": "ZACATECAS",
+          "type": "Social Deprivations vulnerability",
+          "population": 1615040,
+          "percentage": 0.287237467802655,
+          "postal": "ZA",
+          "year": 2018
+        }
+      ]
+    },
+    {
+      "name": "data_0",
+      "source": "data-8fdb023faec40903ddc6525f1cfdad09",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "!length(data(\"Select_store\")) || vlSelectionTest(\"Select_store\", datum)"
+        },
+        {
+          "type": "stack",
+          "groupby": ["year", "state"],
+          "field": "percentage",
+          "sort": {"field": [], "order": []},
+          "as": ["percentage_start", "percentage_end"],
+          "offset": "zero"
+        },
+        {
+          "type": "filter",
+          "expr": "isValid(datum[\"percentage\"]) && isFinite(+datum[\"percentage\"])"
+        }
+      ]
+    },
+    {
+      "name": "concat_0_concat_0_column_domain",
+      "source": "data_0",
+      "transform": [{"type": "aggregate", "groupby": ["state"]}]
+    },
+    {
+      "name": "data_2",
+      "source": "data-30334fc4baae4d4ac167a417342de000",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "!length(data(\"Select_store\")) || vlSelectionTest(\"Select_store\", datum)"
+        },
+        {
+          "type": "stack",
+          "groupby": ["year", "state"],
+          "field": "percentage",
+          "sort": {"field": [], "order": []},
+          "as": ["percentage_start", "percentage_end"],
+          "offset": "zero"
+        },
+        {
+          "type": "filter",
+          "expr": "isValid(datum[\"percentage\"]) && isFinite(+datum[\"percentage\"])"
+        }
+      ]
+    },
+    {
+      "name": "concat_0_concat_1_column_domain",
+      "source": "data_2",
+      "transform": [{"type": "aggregate", "groupby": ["state"]}]
+    },
+    {
+      "name": "data_4",
+      "source": "data-3bd6ea1769f03d89e386d501e7f0f226",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "!length(data(\"Select_store\")) || vlSelectionTest(\"Select_store\", datum)"
+        },
+        {
+          "type": "stack",
+          "groupby": ["year", "state"],
+          "field": "percentage",
+          "sort": {"field": [], "order": []},
+          "as": ["percentage_start", "percentage_end"],
+          "offset": "zero"
+        },
+        {
+          "type": "filter",
+          "expr": "isValid(datum[\"percentage\"]) && isFinite(+datum[\"percentage\"])"
+        }
+      ]
+    },
+    {
+      "name": "concat_1_concat_0_column_domain",
+      "source": "data_4",
+      "transform": [{"type": "aggregate", "groupby": ["state"]}]
+    },
+    {
+      "name": "data_6",
+      "source": "data-e5e64cc749ad765032b442531b6f0c14",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "!length(data(\"Select_store\")) || vlSelectionTest(\"Select_store\", datum)"
+        },
+        {
+          "type": "stack",
+          "groupby": ["year", "state"],
+          "field": "percentage",
+          "sort": {"field": [], "order": []},
+          "as": ["percentage_start", "percentage_end"],
+          "offset": "zero"
+        },
+        {
+          "type": "filter",
+          "expr": "isValid(datum[\"percentage\"]) && isFinite(+datum[\"percentage\"])"
+        }
+      ]
+    },
+    {
+      "name": "concat_1_concat_1_column_domain",
+      "source": "data_6",
+      "transform": [{"type": "aggregate", "groupby": ["state"]}]
+    }
+  ],
+  "signals": [
+    {"name": "concat_0_concat_0_child_width", "value": 250},
+    {"name": "concat_0_concat_0_child_height", "value": 150},
+    {"name": "concat_0_concat_1_child_width", "value": 250},
+    {"name": "concat_0_concat_1_child_height", "value": 150},
+    {"name": "concat_1_concat_0_child_width", "value": 250},
+    {"name": "concat_1_concat_0_child_height", "value": 150},
+    {"name": "concat_1_concat_1_child_width", "value": 250},
+    {"name": "concat_1_concat_1_child_height", "value": 150},
+    {
+      "name": "unit",
+      "value": {},
+      "on": [
+        {"events": "mousemove", "update": "isTuple(group()) ? group() : unit"}
+      ]
+    },
+    {
+      "name": "Select_state",
+      "init": "\"AGUASCALIENTES\"",
+      "bind": {
+        "input": "select",
+        "options": [
+          "AGUASCALIENTES",
+          "BAJA CALIFORNIA",
+          "BAJA CALIFORNIA SUR",
+          "CAMPECHE",
+          "COAHUILA DE ZARAGOZA",
+          "COLIMA",
+          "CHIAPAS",
+          "CHIHUAHUA",
+          "CIUDAD DE MÉXICO",
+          "DURANGO",
+          "GUANAJUATO",
+          "GUERRERO",
+          "HIDALGO",
+          "JALISCO",
+          "MÉXICO",
+          "MICHOACÁN DE OCAMPO",
+          "MORELOS",
+          "NAYARIT",
+          "NUEVO LEÓN",
+          "OAXACA",
+          "PUEBLA",
+          "QUERÉTARO",
+          "QUINTANA ROO",
+          "SAN LUIS POTOSÍ",
+          "SINALOA",
+          "SONORA",
+          "TABASCO",
+          "TAMAULIPAS",
+          "TLAXCALA",
+          "VERACRUZ DE IGNACIO DE LA LLAVE",
+          "YUCATAN",
+          "ZACATECAS"
+        ]
+      }
+    },
+    {
+      "name": "Select",
+      "update": "vlSelectionResolve(\"Select_store\", \"union\", true, true)"
+    }
+  ],
+  "layout": {"padding": 20, "columns": 1, "bounds": "full", "align": "each"},
+  "marks": [
+    {
+      "type": "group",
+      "name": "concat_0_group",
+      "layout": {"padding": 20, "bounds": "full", "align": "each"},
+      "marks": [
+        {
+          "type": "group",
+          "name": "concat_0_concat_0_group",
+          "title": {"text": "Extreme Poverty", "anchor": "start"},
+          "layout": {
+            "padding": 20,
+            "columns": {
+              "signal": "length(data('concat_0_concat_0_column_domain'))"
+            },
+            "bounds": "full",
+            "align": "all"
+          },
+          "marks": [
+            {
+              "name": "concat_0_concat_0_row_header",
+              "type": "group",
+              "role": "row-header",
+              "encode": {
+                "update": {
+                  "height": {"signal": "concat_0_concat_0_child_height"}
+                }
+              },
+              "axes": [
+                {
+                  "scale": "concat_0_concat_0_y",
+                  "orient": "left",
+                  "grid": false,
+                  "title": "Percentage of population",
+                  "format": ".0%",
+                  "tickCount": 4,
+                  "labelOverlap": true,
+                  "zindex": 0
+                }
+              ]
+            },
+            {
+              "name": "concat_0_concat_0_column_header",
+              "type": "group",
+              "role": "column-header",
+              "from": {"data": "concat_0_concat_0_column_domain"},
+              "sort": {"field": "datum[\"state\"]", "order": "ascending"},
+              "title": {
+                "text": {
+                  "signal": "isValid(parent[\"state\"]) ? parent[\"state\"] : \"\"+parent[\"state\"]"
+                },
+                "style": "guide-label",
+                "frame": "group",
+                "offset": 10
+              },
+              "encode": {
+                "update": {"width": {"signal": "concat_0_concat_0_child_width"}}
+              }
+            },
+            {
+              "name": "concat_0_concat_0_column_footer",
+              "type": "group",
+              "role": "column-footer",
+              "from": {"data": "concat_0_concat_0_column_domain"},
+              "sort": {"field": "datum[\"state\"]", "order": "ascending"},
+              "encode": {
+                "update": {"width": {"signal": "concat_0_concat_0_child_width"}}
+              },
+              "axes": [
+                {
+                  "scale": "concat_0_concat_0_x",
+                  "orient": "bottom",
+                  "grid": false,
+                  "labelAlign": "right",
+                  "labelAngle": 270,
+                  "labelBaseline": "middle",
+                  "zindex": 0
+                }
+              ]
+            },
+            {
+              "name": "concat_0_concat_0_cell",
+              "type": "group",
+              "style": "cell",
+              "from": {
+                "facet": {
+                  "name": "concat_0_concat_0_facet",
+                  "data": "data_0",
+                  "groupby": ["state"]
+                }
+              },
+              "sort": {"field": ["datum[\"state\"]"], "order": ["ascending"]},
+              "encode": {
+                "update": {
+                  "width": {"signal": "concat_0_concat_0_child_width"},
+                  "height": {"signal": "concat_0_concat_0_child_height"}
+                }
+              },
+              "signals": [
+                {
+                  "name": "facet",
+                  "value": {},
+                  "on": [
+                    {
+                      "events": [{"source": "scope", "type": "mousemove"}],
+                      "update": "isTuple(facet) ? facet : group(\"concat_0_concat_0_cell\").datum"
+                    }
+                  ]
+                },
+                {
+                  "name": "Select_tuple",
+                  "update": "Select_state !== null ? {fields: Select_tuple_fields, values: [Select_state]} : null"
+                },
+                {
+                  "name": "Select_tuple_fields",
+                  "value": [{"type": "E", "field": "state"}]
+                },
+                {
+                  "name": "Select_modify",
+                  "on": [
+                    {
+                      "events": {"signal": "Select_tuple"},
+                      "update": "modify(\"Select_store\", Select_tuple, true)"
+                    }
+                  ]
+                }
+              ],
+              "marks": [
+                {
+                  "name": "concat_0_concat_0_child_marks",
+                  "type": "rect",
+                  "style": ["bar"],
+                  "interactive": true,
+                  "from": {"data": "concat_0_concat_0_facet"},
+                  "encode": {
+                    "update": {
+                      "fill": {"value": "#453781FF"},
+                      "tooltip": {
+                        "signal": "{\"percentage\": format(datum[\"percentage\"], \".0%\"), \"population\": format(datum[\"population\"], \".0f\")}"
+                      },
+                      "ariaRoleDescription": {"value": "bar"},
+                      "description": {
+                        "signal": "\"percentage: \" + (format(datum[\"percentage\"], \".0%\")) + \"; population: \" + (format(datum[\"population\"], \".0f\")) + \"; year: \" + (isValid(datum[\"year\"]) ? datum[\"year\"] : \"\"+datum[\"year\"]) + \"; Percentage of population: \" + (format(datum[\"percentage\"], \".0%\"))"
+                      },
+                      "x": {"scale": "concat_0_concat_0_x", "field": "year"},
+                      "width": {"scale": "concat_0_concat_0_x", "band": 1},
+                      "y": {
+                        "scale": "concat_0_concat_0_y",
+                        "field": "percentage_end"
+                      },
+                      "y2": {
+                        "scale": "concat_0_concat_0_y",
+                        "field": "percentage_start"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "name": "concat_0_concat_1_group",
+          "title": {"text": "Moderate Poverty", "anchor": "start"},
+          "layout": {
+            "padding": 20,
+            "columns": {
+              "signal": "length(data('concat_0_concat_1_column_domain'))"
+            },
+            "bounds": "full",
+            "align": "all"
+          },
+          "marks": [
+            {
+              "name": "concat_0_concat_1_row_header",
+              "type": "group",
+              "role": "row-header",
+              "encode": {
+                "update": {
+                  "height": {"signal": "concat_0_concat_1_child_height"}
+                }
+              },
+              "axes": [
+                {
+                  "scale": "concat_0_concat_1_y",
+                  "orient": "left",
+                  "grid": false,
+                  "format": ".0%",
+                  "tickCount": 4,
+                  "labelOverlap": true,
+                  "zindex": 0
+                }
+              ]
+            },
+            {
+              "name": "concat_0_concat_1_column_header",
+              "type": "group",
+              "role": "column-header",
+              "from": {"data": "concat_0_concat_1_column_domain"},
+              "sort": {"field": "datum[\"state\"]", "order": "ascending"},
+              "title": {
+                "text": {
+                  "signal": "isValid(parent[\"state\"]) ? parent[\"state\"] : \"\"+parent[\"state\"]"
+                },
+                "style": "guide-label",
+                "frame": "group",
+                "offset": 10
+              },
+              "encode": {
+                "update": {"width": {"signal": "concat_0_concat_1_child_width"}}
+              }
+            },
+            {
+              "name": "concat_0_concat_1_column_footer",
+              "type": "group",
+              "role": "column-footer",
+              "from": {"data": "concat_0_concat_1_column_domain"},
+              "sort": {"field": "datum[\"state\"]", "order": "ascending"},
+              "encode": {
+                "update": {"width": {"signal": "concat_0_concat_1_child_width"}}
+              },
+              "axes": [
+                {
+                  "scale": "concat_0_concat_1_x",
+                  "orient": "bottom",
+                  "grid": false,
+                  "labelAlign": "right",
+                  "labelAngle": 270,
+                  "labelBaseline": "middle",
+                  "zindex": 0
+                }
+              ]
+            },
+            {
+              "name": "concat_0_concat_1_cell",
+              "type": "group",
+              "style": "cell",
+              "from": {
+                "facet": {
+                  "name": "concat_0_concat_1_facet",
+                  "data": "data_2",
+                  "groupby": ["state"]
+                }
+              },
+              "sort": {"field": ["datum[\"state\"]"], "order": ["ascending"]},
+              "encode": {
+                "update": {
+                  "width": {"signal": "concat_0_concat_1_child_width"},
+                  "height": {"signal": "concat_0_concat_1_child_height"}
+                }
+              },
+              "signals": [
+                {
+                  "name": "facet",
+                  "value": {},
+                  "on": [
+                    {
+                      "events": [{"source": "scope", "type": "mousemove"}],
+                      "update": "isTuple(facet) ? facet : group(\"concat_0_concat_1_cell\").datum"
+                    }
+                  ]
+                },
+                {
+                  "name": "Select_tuple",
+                  "update": "Select_state !== null ? {fields: Select_tuple_fields, values: [Select_state]} : null"
+                },
+                {
+                  "name": "Select_tuple_fields",
+                  "value": [{"type": "E", "field": "state"}]
+                },
+                {
+                  "name": "Select_modify",
+                  "on": [
+                    {
+                      "events": {"signal": "Select_tuple"},
+                      "update": "modify(\"Select_store\", Select_tuple, true)"
+                    }
+                  ]
+                }
+              ],
+              "marks": [
+                {
+                  "name": "concat_0_concat_1_child_marks",
+                  "type": "rect",
+                  "style": ["bar"],
+                  "interactive": true,
+                  "from": {"data": "concat_0_concat_1_facet"},
+                  "encode": {
+                    "update": {
+                      "fill": {"value": "#2D708EFF"},
+                      "tooltip": {
+                        "signal": "{\"percentage\": format(datum[\"percentage\"], \".0%\"), \"population\": format(datum[\"population\"], \".0f\")}"
+                      },
+                      "ariaRoleDescription": {"value": "bar"},
+                      "description": {
+                        "signal": "\"percentage: \" + (format(datum[\"percentage\"], \".0%\")) + \"; population: \" + (format(datum[\"population\"], \".0f\")) + \"; year: \" + (isValid(datum[\"year\"]) ? datum[\"year\"] : \"\"+datum[\"year\"])"
+                      },
+                      "x": {"scale": "concat_0_concat_1_x", "field": "year"},
+                      "width": {"scale": "concat_0_concat_1_x", "band": 1},
+                      "y": {
+                        "scale": "concat_0_concat_1_y",
+                        "field": "percentage_end"
+                      },
+                      "y2": {
+                        "scale": "concat_0_concat_1_y",
+                        "field": "percentage_start"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "name": "concat_1_group",
+      "layout": {"padding": 20, "bounds": "full", "align": "each"},
+      "marks": [
+        {
+          "type": "group",
+          "name": "concat_1_concat_0_group",
+          "title": {"text": "Income Vulnerability", "anchor": "start"},
+          "layout": {
+            "padding": 20,
+            "columns": {
+              "signal": "length(data('concat_1_concat_0_column_domain'))"
+            },
+            "bounds": "full",
+            "align": "all"
+          },
+          "marks": [
+            {
+              "name": "concat_1_concat_0_row_header",
+              "type": "group",
+              "role": "row-header",
+              "encode": {
+                "update": {
+                  "height": {"signal": "concat_1_concat_0_child_height"}
+                }
+              },
+              "axes": [
+                {
+                  "scale": "concat_1_concat_0_y",
+                  "orient": "left",
+                  "grid": false,
+                  "title": "Percentage of population",
+                  "format": ".0%",
+                  "tickCount": 4,
+                  "labelOverlap": true,
+                  "zindex": 0
+                }
+              ]
+            },
+            {
+              "name": "concat_1_concat_0_column_header",
+              "type": "group",
+              "role": "column-header",
+              "from": {"data": "concat_1_concat_0_column_domain"},
+              "sort": {"field": "datum[\"state\"]", "order": "ascending"},
+              "title": {
+                "text": {
+                  "signal": "isValid(parent[\"state\"]) ? parent[\"state\"] : \"\"+parent[\"state\"]"
+                },
+                "style": "guide-label",
+                "frame": "group",
+                "offset": 10
+              },
+              "encode": {
+                "update": {"width": {"signal": "concat_1_concat_0_child_width"}}
+              }
+            },
+            {
+              "name": "concat_1_concat_0_column_footer",
+              "type": "group",
+              "role": "column-footer",
+              "from": {"data": "concat_1_concat_0_column_domain"},
+              "sort": {"field": "datum[\"state\"]", "order": "ascending"},
+              "encode": {
+                "update": {"width": {"signal": "concat_1_concat_0_child_width"}}
+              },
+              "axes": [
+                {
+                  "scale": "concat_1_concat_0_x",
+                  "orient": "bottom",
+                  "grid": false,
+                  "title": "year",
+                  "labelAlign": "right",
+                  "labelAngle": 270,
+                  "labelBaseline": "middle",
+                  "zindex": 0
+                }
+              ]
+            },
+            {
+              "name": "concat_1_concat_0_cell",
+              "type": "group",
+              "style": "cell",
+              "from": {
+                "facet": {
+                  "name": "concat_1_concat_0_facet",
+                  "data": "data_4",
+                  "groupby": ["state"]
+                }
+              },
+              "sort": {"field": ["datum[\"state\"]"], "order": ["ascending"]},
+              "encode": {
+                "update": {
+                  "width": {"signal": "concat_1_concat_0_child_width"},
+                  "height": {"signal": "concat_1_concat_0_child_height"}
+                }
+              },
+              "signals": [
+                {
+                  "name": "facet",
+                  "value": {},
+                  "on": [
+                    {
+                      "events": [{"source": "scope", "type": "mousemove"}],
+                      "update": "isTuple(facet) ? facet : group(\"concat_1_concat_0_cell\").datum"
+                    }
+                  ]
+                },
+                {
+                  "name": "Select_tuple",
+                  "update": "Select_state !== null ? {fields: Select_tuple_fields, values: [Select_state]} : null"
+                },
+                {
+                  "name": "Select_tuple_fields",
+                  "value": [{"type": "E", "field": "state"}]
+                },
+                {
+                  "name": "Select_modify",
+                  "on": [
+                    {
+                      "events": {"signal": "Select_tuple"},
+                      "update": "modify(\"Select_store\", Select_tuple, true)"
+                    }
+                  ]
+                }
+              ],
+              "marks": [
+                {
+                  "name": "concat_1_concat_0_child_marks",
+                  "type": "rect",
+                  "style": ["bar"],
+                  "interactive": true,
+                  "from": {"data": "concat_1_concat_0_facet"},
+                  "encode": {
+                    "update": {
+                      "fill": {"value": "#1F968BFF"},
+                      "tooltip": {
+                        "signal": "{\"percentage\": format(datum[\"percentage\"], \".0%\"), \"population\": format(datum[\"population\"], \".0f\")}"
+                      },
+                      "ariaRoleDescription": {"value": "bar"},
+                      "description": {
+                        "signal": "\"percentage: \" + (format(datum[\"percentage\"], \".0%\")) + \"; population: \" + (format(datum[\"population\"], \".0f\")) + \"; year: \" + (isValid(datum[\"year\"]) ? datum[\"year\"] : \"\"+datum[\"year\"]) + \"; Percentage of population: \" + (format(datum[\"percentage\"], \".0%\"))"
+                      },
+                      "x": {"scale": "concat_1_concat_0_x", "field": "year"},
+                      "width": {"scale": "concat_1_concat_0_x", "band": 1},
+                      "y": {
+                        "scale": "concat_1_concat_0_y",
+                        "field": "percentage_end"
+                      },
+                      "y2": {
+                        "scale": "concat_1_concat_0_y",
+                        "field": "percentage_start"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "name": "concat_1_concat_1_group",
+          "title": {
+            "text": "Social Deprivations vulnerablity",
+            "anchor": "start"
+          },
+          "layout": {
+            "padding": 20,
+            "columns": {
+              "signal": "length(data('concat_1_concat_1_column_domain'))"
+            },
+            "bounds": "full",
+            "align": "all"
+          },
+          "marks": [
+            {
+              "name": "concat_1_concat_1_row_header",
+              "type": "group",
+              "role": "row-header",
+              "encode": {
+                "update": {
+                  "height": {"signal": "concat_1_concat_1_child_height"}
+                }
+              },
+              "axes": [
+                {
+                  "scale": "concat_1_concat_1_y",
+                  "orient": "left",
+                  "grid": false,
+                  "format": ".0%",
+                  "tickCount": 4,
+                  "labelOverlap": true,
+                  "zindex": 0
+                }
+              ]
+            },
+            {
+              "name": "concat_1_concat_1_column_header",
+              "type": "group",
+              "role": "column-header",
+              "from": {"data": "concat_1_concat_1_column_domain"},
+              "sort": {"field": "datum[\"state\"]", "order": "ascending"},
+              "title": {
+                "text": {
+                  "signal": "isValid(parent[\"state\"]) ? parent[\"state\"] : \"\"+parent[\"state\"]"
+                },
+                "style": "guide-label",
+                "frame": "group",
+                "offset": 10
+              },
+              "encode": {
+                "update": {"width": {"signal": "concat_1_concat_1_child_width"}}
+              }
+            },
+            {
+              "name": "concat_1_concat_1_column_footer",
+              "type": "group",
+              "role": "column-footer",
+              "from": {"data": "concat_1_concat_1_column_domain"},
+              "sort": {"field": "datum[\"state\"]", "order": "ascending"},
+              "encode": {
+                "update": {"width": {"signal": "concat_1_concat_1_child_width"}}
+              },
+              "axes": [
+                {
+                  "scale": "concat_1_concat_1_x",
+                  "orient": "bottom",
+                  "grid": false,
+                  "title": "year",
+                  "labelAlign": "right",
+                  "labelAngle": 270,
+                  "labelBaseline": "middle",
+                  "zindex": 0
+                }
+              ]
+            },
+            {
+              "name": "concat_1_concat_1_cell",
+              "type": "group",
+              "style": "cell",
+              "from": {
+                "facet": {
+                  "name": "concat_1_concat_1_facet",
+                  "data": "data_6",
+                  "groupby": ["state"]
+                }
+              },
+              "sort": {"field": ["datum[\"state\"]"], "order": ["ascending"]},
+              "encode": {
+                "update": {
+                  "width": {"signal": "concat_1_concat_1_child_width"},
+                  "height": {"signal": "concat_1_concat_1_child_height"}
+                }
+              },
+              "signals": [
+                {
+                  "name": "facet",
+                  "value": {},
+                  "on": [
+                    {
+                      "events": [{"source": "scope", "type": "mousemove"}],
+                      "update": "isTuple(facet) ? facet : group(\"concat_1_concat_1_cell\").datum"
+                    }
+                  ]
+                },
+                {
+                  "name": "Select_tuple",
+                  "update": "Select_state !== null ? {fields: Select_tuple_fields, values: [Select_state]} : null"
+                },
+                {
+                  "name": "Select_tuple_fields",
+                  "value": [{"type": "E", "field": "state"}]
+                },
+                {
+                  "name": "Select_modify",
+                  "on": [
+                    {
+                      "events": {"signal": "Select_tuple"},
+                      "update": "modify(\"Select_store\", Select_tuple, true)"
+                    }
+                  ]
+                }
+              ],
+              "marks": [
+                {
+                  "name": "concat_1_concat_1_child_marks",
+                  "type": "rect",
+                  "style": ["bar"],
+                  "interactive": true,
+                  "from": {"data": "concat_1_concat_1_facet"},
+                  "encode": {
+                    "update": {
+                      "fill": {"value": "#95D840FF"},
+                      "tooltip": {
+                        "signal": "{\"percentage\": format(datum[\"percentage\"], \".0%\"), \"population\": format(datum[\"population\"], \".0f\")}"
+                      },
+                      "ariaRoleDescription": {"value": "bar"},
+                      "description": {
+                        "signal": "\"percentage: \" + (format(datum[\"percentage\"], \".0%\")) + \"; population: \" + (format(datum[\"population\"], \".0f\")) + \"; year: \" + (isValid(datum[\"year\"]) ? datum[\"year\"] : \"\"+datum[\"year\"])"
+                      },
+                      "x": {"scale": "concat_1_concat_1_x", "field": "year"},
+                      "width": {"scale": "concat_1_concat_1_x", "band": 1},
+                      "y": {
+                        "scale": "concat_1_concat_1_y",
+                        "field": "percentage_end"
+                      },
+                      "y2": {
+                        "scale": "concat_1_concat_1_y",
+                        "field": "percentage_start"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "concat_0_concat_0_x",
+      "type": "band",
+      "domain": {"data": "data_0", "field": "year", "sort": true},
+      "range": [0, {"signal": "concat_0_concat_0_child_width"}],
+      "paddingInner": 0.1,
+      "paddingOuter": 0.05
+    },
+    {
+      "name": "concat_0_concat_0_y",
+      "type": "linear",
+      "domain": [0, 0.53],
+      "range": [{"signal": "concat_0_concat_0_child_height"}, 0],
+      "zero": true
+    },
+    {
+      "name": "concat_0_concat_1_x",
+      "type": "band",
+      "domain": {"data": "data_2", "field": "year", "sort": true},
+      "range": [0, {"signal": "concat_0_concat_1_child_width"}],
+      "paddingInner": 0.1,
+      "paddingOuter": 0.05
+    },
+    {
+      "name": "concat_0_concat_1_y",
+      "type": "linear",
+      "domain": [0, 0.53],
+      "range": [{"signal": "concat_0_concat_1_child_height"}, 0],
+      "zero": true
+    },
+    {
+      "name": "concat_1_concat_0_x",
+      "type": "band",
+      "domain": {"data": "data_4", "field": "year", "sort": true},
+      "range": [0, {"signal": "concat_1_concat_0_child_width"}],
+      "paddingInner": 0.1,
+      "paddingOuter": 0.05
+    },
+    {
+      "name": "concat_1_concat_0_y",
+      "type": "linear",
+      "domain": [0, 0.53],
+      "range": [{"signal": "concat_1_concat_0_child_height"}, 0],
+      "zero": true
+    },
+    {
+      "name": "concat_1_concat_1_x",
+      "type": "band",
+      "domain": {"data": "data_6", "field": "year", "sort": true},
+      "range": [0, {"signal": "concat_1_concat_1_child_width"}],
+      "paddingInner": 0.1,
+      "paddingOuter": 0.05
+    },
+    {
+      "name": "concat_1_concat_1_y",
+      "type": "linear",
+      "domain": [0, 0.53],
+      "range": [{"signal": "concat_1_concat_1_child_height"}, 0],
+      "zero": true
+    }
+  ],
+  "config": {"axis": {"grid": false}}
+}

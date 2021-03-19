@@ -1,0 +1,494 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "background": "#DDEEFF",
+  "padding": {"left": 10, "top": 18, "right": 15, "bottom": 10},
+  "height": 300,
+  "title": {
+    "text": "Source: World Bank World Development indicators",
+    "anchor": "end",
+    "baseline": "bottom",
+    "color": "black",
+    "fontSize": 10,
+    "fontWeight": "normal",
+    "orient": "bottom"
+  },
+  "data": [
+    {"name": "selector001_store"},
+    {
+      "name": "data-8665f6e19b7fe5fddef96902c92e6002",
+      "values": [
+        {
+          "country": "Chile",
+          "year": 2013,
+          "percentage": 0.066,
+          "pov": "Poverty headcount ratio at $5.50 a day"
+        },
+        {
+          "country": "Chile",
+          "year": 2015,
+          "percentage": 0.051,
+          "pov": "Poverty headcount ratio at $5.50 a day"
+        },
+        {
+          "country": "Chile",
+          "year": 2017,
+          "percentage": 0.036000000000000004,
+          "pov": "Poverty headcount ratio at $5.50 a day"
+        },
+        {
+          "country": "Brazil",
+          "year": 2012,
+          "percentage": 0.21100000000000002,
+          "pov": "Poverty headcount ratio at $5.50 a day"
+        },
+        {
+          "country": "Brazil",
+          "year": 2013,
+          "percentage": 0.193,
+          "pov": "Poverty headcount ratio at $5.50 a day"
+        },
+        {
+          "country": "Brazil",
+          "year": 2014,
+          "percentage": 0.17600000000000002,
+          "pov": "Poverty headcount ratio at $5.50 a day"
+        },
+        {
+          "country": "Brazil",
+          "year": 2015,
+          "percentage": 0.18600000000000003,
+          "pov": "Poverty headcount ratio at $5.50 a day"
+        },
+        {
+          "country": "Brazil",
+          "year": 2016,
+          "percentage": 0.2,
+          "pov": "Poverty headcount ratio at $5.50 a day"
+        },
+        {
+          "country": "Brazil",
+          "year": 2017,
+          "percentage": 0.20199999999999999,
+          "pov": "Poverty headcount ratio at $5.50 a day"
+        },
+        {
+          "country": "Brazil",
+          "year": 2018,
+          "percentage": 0.198,
+          "pov": "Poverty headcount ratio at $5.50 a day"
+        },
+        {
+          "country": "Mexico",
+          "year": 2012,
+          "percentage": 0.316,
+          "pov": "Poverty headcount ratio at $5.50 a day"
+        },
+        {
+          "country": "Mexico",
+          "year": 2014,
+          "percentage": 0.33299999999999996,
+          "pov": "Poverty headcount ratio at $5.50 a day"
+        },
+        {
+          "country": "Mexico",
+          "year": 2016,
+          "percentage": 0.254,
+          "pov": "Poverty headcount ratio at $5.50 a day"
+        },
+        {
+          "country": "Mexico",
+          "year": 2018,
+          "percentage": 0.22699999999999998,
+          "pov": "Poverty headcount ratio at $5.50 a day"
+        },
+        {
+          "country": "World",
+          "year": 2011,
+          "percentage": 0.522,
+          "pov": "Poverty headcount ratio at $5.50 a day"
+        },
+        {
+          "country": "World",
+          "year": 2012,
+          "percentage": 0.507,
+          "pov": "Poverty headcount ratio at $5.50 a day"
+        },
+        {
+          "country": "World",
+          "year": 2013,
+          "percentage": 0.488,
+          "pov": "Poverty headcount ratio at $5.50 a day"
+        },
+        {
+          "country": "World",
+          "year": 2014,
+          "percentage": 0.474,
+          "pov": "Poverty headcount ratio at $5.50 a day"
+        },
+        {
+          "country": "World",
+          "year": 2015,
+          "percentage": 0.462,
+          "pov": "Poverty headcount ratio at $5.50 a day"
+        },
+        {
+          "country": "World",
+          "year": 2016,
+          "percentage": 0.45,
+          "pov": "Poverty headcount ratio at $5.50 a day"
+        },
+        {
+          "country": "World",
+          "year": 2017,
+          "percentage": 0.436,
+          "pov": "Poverty headcount ratio at $5.50 a day"
+        },
+        {
+          "country": "Latin America & Caribbean",
+          "year": 2011,
+          "percentage": 0.295,
+          "pov": "Poverty headcount ratio at $5.50 a day"
+        },
+        {
+          "country": "Latin America & Caribbean",
+          "year": 2012,
+          "percentage": 0.278,
+          "pov": "Poverty headcount ratio at $5.50 a day"
+        },
+        {
+          "country": "Latin America & Caribbean",
+          "year": 2013,
+          "percentage": 0.271,
+          "pov": "Poverty headcount ratio at $5.50 a day"
+        },
+        {
+          "country": "Latin America & Caribbean",
+          "year": 2014,
+          "percentage": 0.266,
+          "pov": "Poverty headcount ratio at $5.50 a day"
+        },
+        {
+          "country": "Latin America & Caribbean",
+          "year": 2015,
+          "percentage": 0.26,
+          "pov": "Poverty headcount ratio at $5.50 a day"
+        },
+        {
+          "country": "Latin America & Caribbean",
+          "year": 2016,
+          "percentage": 0.256,
+          "pov": "Poverty headcount ratio at $5.50 a day"
+        },
+        {
+          "country": "Latin America & Caribbean",
+          "year": 2017,
+          "percentage": 0.231,
+          "pov": "Poverty headcount ratio at $5.50 a day"
+        },
+        {
+          "country": "Latin America & Caribbean",
+          "year": 2018,
+          "percentage": 0.226,
+          "pov": "Poverty headcount ratio at $5.50 a day"
+        },
+        {
+          "country": "Europe & Central Asia",
+          "year": 2011,
+          "percentage": 0.15,
+          "pov": "Poverty headcount ratio at $5.50 a day"
+        },
+        {
+          "country": "Europe & Central Asia",
+          "year": 2012,
+          "percentage": 0.147,
+          "pov": "Poverty headcount ratio at $5.50 a day"
+        },
+        {
+          "country": "Europe & Central Asia",
+          "year": 2013,
+          "percentage": 0.13699999999999998,
+          "pov": "Poverty headcount ratio at $5.50 a day"
+        },
+        {
+          "country": "Europe & Central Asia",
+          "year": 2014,
+          "percentage": 0.13699999999999998,
+          "pov": "Poverty headcount ratio at $5.50 a day"
+        },
+        {
+          "country": "Europe & Central Asia",
+          "year": 2015,
+          "percentage": 0.139,
+          "pov": "Poverty headcount ratio at $5.50 a day"
+        },
+        {
+          "country": "Europe & Central Asia",
+          "year": 2016,
+          "percentage": 0.133,
+          "pov": "Poverty headcount ratio at $5.50 a day"
+        },
+        {
+          "country": "Europe & Central Asia",
+          "year": 2017,
+          "percentage": 0.126,
+          "pov": "Poverty headcount ratio at $5.50 a day"
+        },
+        {
+          "country": "Europe & Central Asia",
+          "year": 2018,
+          "percentage": 0.11900000000000001,
+          "pov": "Poverty headcount ratio at $5.50 a day"
+        }
+      ]
+    },
+    {
+      "name": "data_0",
+      "source": "data-8665f6e19b7fe5fddef96902c92e6002",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "isValid(datum[\"percentage\"]) && isFinite(+datum[\"percentage\"])"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {"name": "childWidth", "value": 500},
+    {
+      "name": "unit",
+      "value": {},
+      "on": [
+        {"events": "mousemove", "update": "isTuple(group()) ? group() : unit"}
+      ]
+    },
+    {
+      "name": "selector001",
+      "update": "vlSelectionResolve(\"selector001_store\", \"union\", true, true)"
+    }
+  ],
+  "layout": {"padding": 20, "bounds": "full", "align": "each"},
+  "marks": [
+    {
+      "type": "group",
+      "name": "concat_0_group",
+      "title": {
+        "text": "World Bank poverty rate",
+        "fontSize": 28,
+        "subtitle": "Percentage of total population living with $5.50 USD or less per day",
+        "subtitleFontSize": 15,
+        "subtitlePadding": 15,
+        "frame": "group"
+      },
+      "style": "cell",
+      "encode": {
+        "update": {
+          "width": {"signal": "childWidth"},
+          "height": {"signal": "height"}
+        }
+      },
+      "signals": [
+        {
+          "name": "selector001_tuple",
+          "on": [
+            {
+              "events": [
+                {
+                  "source": "scope",
+                  "type": "mouseover",
+                  "markname": "concat_0_layer_0_layer_0_voronoi"
+                }
+              ],
+              "update": "datum && item().mark.marktype !== 'group' ? {unit: \"concat_0_layer_0_layer_0\", fields: selector001_tuple_fields, values: [(item().isVoronoi ? datum.datum : datum)[\"country\"]]} : null",
+              "force": true
+            },
+            {
+              "events": [{"source": "view", "type": "dblclick"}],
+              "update": "null"
+            }
+          ]
+        },
+        {
+          "name": "selector001_tuple_fields",
+          "value": [{"type": "E", "field": "country"}]
+        },
+        {
+          "name": "selector001_modify",
+          "on": [
+            {
+              "events": {"signal": "selector001_tuple"},
+              "update": "modify(\"selector001_store\", selector001_tuple, true)"
+            }
+          ]
+        }
+      ],
+      "marks": [
+        {
+          "name": "concat_0_layer_0_layer_0_marks",
+          "type": "symbol",
+          "style": ["circle"],
+          "interactive": true,
+          "from": {"data": "data_0"},
+          "encode": {
+            "update": {
+              "opacity": {"value": 0},
+              "fill": {"scale": "concat_0_layer_0_color", "field": "country"},
+              "ariaRoleDescription": {"value": "circle"},
+              "description": {
+                "signal": "\"country: \" + (isValid(datum[\"country\"]) ? datum[\"country\"] : \"\"+datum[\"country\"]) + \"; year: \" + (isValid(datum[\"year\"]) ? datum[\"year\"] : \"\"+datum[\"year\"]) + \"; Percentage of population: \" + (format(datum[\"percentage\"], \".0%\"))"
+              },
+              "x": {"scale": "concat_0_x", "field": "year"},
+              "y": {"scale": "concat_0_y", "field": "percentage"},
+              "shape": {"value": "circle"}
+            }
+          }
+        },
+        {
+          "name": "concat_0_layer_0_layer_0_voronoi",
+          "type": "path",
+          "interactive": true,
+          "from": {"data": "concat_0_layer_0_layer_0_marks"},
+          "encode": {
+            "update": {
+              "fill": {"value": "transparent"},
+              "strokeWidth": {"value": 0.35},
+              "stroke": {"value": "transparent"},
+              "isVoronoi": {"value": true}
+            }
+          },
+          "transform": [
+            {
+              "type": "voronoi",
+              "x": {"expr": "datum.datum.x || 0"},
+              "y": {"expr": "datum.datum.y || 0"},
+              "size": [{"signal": "childWidth"}, {"signal": "height"}]
+            }
+          ]
+        },
+        {
+          "name": "concat_0_layer_0_layer_1_pathgroup",
+          "type": "group",
+          "from": {
+            "facet": {
+              "name": "faceted_path_concat_0_layer_0_layer_1_main",
+              "data": "data-8665f6e19b7fe5fddef96902c92e6002",
+              "groupby": ["country"]
+            }
+          },
+          "encode": {
+            "update": {
+              "width": {"field": {"group": "width"}},
+              "height": {"field": {"group": "height"}}
+            }
+          },
+          "marks": [
+            {
+              "name": "concat_0_layer_0_layer_1_marks",
+              "type": "line",
+              "style": ["line"],
+              "sort": {"field": "datum[\"year\"]"},
+              "interactive": false,
+              "from": {"data": "faceted_path_concat_0_layer_0_layer_1_main"},
+              "encode": {
+                "update": {
+                  "stroke": {
+                    "scale": "concat_0_layer_0_color",
+                    "field": "country"
+                  },
+                  "description": {
+                    "signal": "\"country: \" + (isValid(datum[\"country\"]) ? datum[\"country\"] : \"\"+datum[\"country\"]) + \"; year: \" + (isValid(datum[\"year\"]) ? datum[\"year\"] : \"\"+datum[\"year\"]) + \"; Percentage of population: \" + (format(datum[\"percentage\"], \".0%\"))"
+                  },
+                  "x": {"scale": "concat_0_x", "field": "year"},
+                  "y": {"scale": "concat_0_y", "field": "percentage"},
+                  "strokeWidth": [
+                    {
+                      "test": "!(!length(data(\"selector001_store\")) || vlSelectionTest(\"selector001_store\", datum))",
+                      "value": 1
+                    },
+                    {"value": 3}
+                  ],
+                  "defined": {
+                    "signal": "isValid(datum[\"percentage\"]) && isFinite(+datum[\"percentage\"])"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "axes": [
+        {
+          "scale": "concat_0_x",
+          "orient": "bottom",
+          "grid": false,
+          "title": "year",
+          "labelAlign": "right",
+          "labelAngle": 270,
+          "labelBaseline": "middle",
+          "zindex": 0
+        },
+        {
+          "scale": "concat_0_y",
+          "orient": "left",
+          "grid": false,
+          "title": "Percentage of population",
+          "format": ".0%",
+          "tickCount": 4,
+          "labelOverlap": true,
+          "zindex": 0
+        }
+      ],
+      "legends": [
+        {
+          "title": "Country/Zone",
+          "fill": "concat_0_layer_0_color",
+          "symbolType": "circle",
+          "stroke": "concat_0_layer_0_color"
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "concat_0_x",
+      "type": "point",
+      "domain": {
+        "fields": [
+          {"data": "data_0", "field": "year"},
+          {"data": "data-8665f6e19b7fe5fddef96902c92e6002", "field": "year"}
+        ],
+        "sort": true
+      },
+      "range": [0, {"signal": "childWidth"}],
+      "padding": 0.5
+    },
+    {
+      "name": "concat_0_y",
+      "type": "linear",
+      "domain": {
+        "fields": [
+          {"data": "data_0", "field": "percentage"},
+          {
+            "data": "data-8665f6e19b7fe5fddef96902c92e6002",
+            "field": "percentage"
+          }
+        ]
+      },
+      "range": [{"signal": "height"}, 0],
+      "nice": true,
+      "zero": true
+    },
+    {
+      "name": "concat_0_layer_0_color",
+      "type": "ordinal",
+      "domain": {
+        "fields": [
+          {"data": "data_0", "field": "country"},
+          {"data": "data-8665f6e19b7fe5fddef96902c92e6002", "field": "country"}
+        ],
+        "sort": true
+      },
+      "range": "category"
+    }
+  ],
+  "config": {"axis": {"grid": false}}
+}
