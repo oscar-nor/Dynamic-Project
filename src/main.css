@@ -4,7 +4,6 @@
 
 html,
 body {
-  /*background: #f3f3f3,*/
   font-family: Verdana, Geneva, sans-serif;
   height: 100%;
   margin: 0;
@@ -15,6 +14,7 @@ body {
 body {
   min-height: 1280px;
   font-weight: 300;
+  font-size: 12px;
   color: #2a2a2a;
 }
 
@@ -36,10 +36,27 @@ a:hover {
   border-bottom: 1px solid currentColor;
 }
 
-#intro {
-  max-width: 40rem;
-  margin: 1rem auto;
+#h4 {
+  margin: 10px;
   text-align: center;
+}
+
+#h1 {
+  font-weight: bold;
+}
+
+#intro {
+  max-width: 70rem;
+  margin: 1.5rem auto;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.intro__p {
+  margin-top: 30px;
+  text-justify: newspaper;
 }
 
 .intro__overline {
@@ -47,33 +64,52 @@ a:hover {
 }
 
 .intro__hed {
-  font-size: 1.4rem;
-  margin: 1.5rem auto;
+  font-size: 2rem;
+  margin-top: 1.5rem;
   text-transform: uppercase;
   font-weight: 900;
   letter-spacing: 0.05em;
 }
 
 .intro__dek {
+  font-weight: bold;
   font-size: 1.4rem;
+  margin-bottom: 10px;
 }
 
 /* demo */
 
 #intro {
-  margin-bottom: 320px;
+  margin-bottom: 150px;
 }
 
 #outro {
-  height: 640px;
+  margin-top: 50px;
+  height: 400px;
+  text-align: center;
+}
+#last {
+  font-size: 30px;
+  margin-bottom: 20px;
 }
 
 /* scrollama */
 
 #scroll {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+  margin-left: 1%;
   border-top: 1px dashed #000;
   border-bottom: 1px dashed #000;
+}
+
+#scroll > * {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
 .scroll__graphic {
@@ -81,67 +117,44 @@ a:hover {
   position: -webkit-sticky;
   bottom: auto;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
-  background-color: #fff;
   height: 1000px;
-  width: 1400px;
+  width: 1200px;
   transform: translate3d(0, 0, 0);
   -webkit-transform: translateX(5%)
+  
 }
 
-.scroll__graphic.is-fixed {
-  position: fixed;
+#vend1 {
+  margin-bottom: 30px; 
 }
 
-.scroll__graphic.is-bottom {
-  bottom: 0;
-  top: auto;
+#vend2 {
+  margin-bottom: 30px;
 }
 
-.chart {
-  position: absolute;
-  right: 1rem;
-  top: 50%;
-  -moz-transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-  background-color: #ddd;
-  border: 1px solid #000;
-}
-
-.chart p {
-  text-align: center;
-  padding: 1rem;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -moz-transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  font-size: 8rem;
-  font-weight: 900;
-  color: #666;
-}
 
 .scroll__text {
-  position: relative;
+  
+position: relative;
   padding: 0 1rem;
   max-width: 30rem;
-  width: 33%;
+
 }
 
 .step {
   margin: 2rem auto;
-  border: 1px solid #333;
+
 }
 
 .step.is-active {
   background-color: rgba(214, 234, 254, 0.582);
+  padding: 10px;
 }
 
 .step p {
-  text-align: center;
   padding: 1rem;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
+

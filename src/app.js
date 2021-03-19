@@ -1,24 +1,11 @@
-// if the data you are going to import is small, then you can import it using es6 import
-// (I like to use use screaming snake case for imported json)
-// import MY_DATA from './app/data/example.json'
-
 import { myExampleUtil } from './utils';
 import scrollama from "scrollama";
 import vegaEmbed from 'vega-embed';
 import * as d3 from "d3";
 import './main.css';
-//import "intersection-observer";
 
-// this is just one example of how to import data. there are lots of ways to do it!
-
-const height = 500;
-const width = 500;
-const margin = { top: 50, bottom: 50, right: 50, left: 50 };
-const plotWidth = width - margin.left - margin.right;
-const plotHeight = height - margin.top - margin.bottom;
-
-// Create function to embed vega figures
-
+// Source for Scrollama code and experimentation:
+// https://codepen.io/aw207/pen/BXwVPa
 
 // initialize the scrollama
 var container = d3.select("#scroll");
@@ -60,21 +47,33 @@ function handleStepEnter(response) {
 
   // update graphic based on step
   if (response.index === 0) {
-    // Population map
-    const fig = vegaEmbed("#vis1", "./data/mx.vg.json", {
+    const fig = vegaEmbed("#vs", "./data/wb.vg.json", {
       renderer: 'svg', "actions": false
     }).catch(console.warn);
+
   } else if (response.index === 1) {
     d3.selectAll("path").interrupt();
-    const fig = vegaEmbed("#vis1", "./data/world.vg.json", {
+    const fig = vegaEmbed("#vs", "./data/population.vg.json", {
       renderer: 'svg', "actions": false
     }).catch(console.warn);
+
   } else if (response.index === 2) {
-    const fig = vegaEmbed("#vis1", "./data/states_pov.vg.json", {
+    const fig = vegaEmbed("#vs", "./data/map1.vg.json", {
       renderer: 'svg', "actions": false
     }).catch(console.warn);
+
   } else if (response.index === 3) {
-    const fig = vegaEmbed("#vis1", "./data/sates_sd.vg.json", {
+    const fig = vegaEmbed("#vs", "./data/map2.vg.json", {
+      renderer: 'svg', "actions": false
+    }).catch(console.warn);
+
+  } else if (response.index === 4) {
+    const fig = vegaEmbed("#vs", "./data/map3.vg.json", {
+      renderer: 'svg', "actions": false
+    }).catch(console.warn);
+
+  } else if (response.index === 5) {
+    const fig = vegaEmbed("#vs", "./data/map4.vg.json", {
       renderer: 'svg', "actions": false
     }).catch(console.warn);
 
@@ -83,11 +82,6 @@ function handleStepEnter(response) {
   handleResize();
 }
 
-function handleStepExit(response) {
-  if (response.direction === 'down') {
-    response.element.style.opacity = .4
-  }
-}
 
 function setupStickyfill() {
   d3.selectAll(".sticky").each(function () {
@@ -97,6 +91,7 @@ function setupStickyfill() {
 
 
 function init() {
+  setupStickyfill();
   // 1. force a resize on load to ensure proper dimensions are sent to scrollama
   handleResize();
 
@@ -105,19 +100,22 @@ function init() {
   // 3. bind scrollama event handlers (this can be chained like below)
   scroller
     .setup({
-      container: "#scroll",
-      graphic: ".scroll__graphic",
-      text: ".scroll__text",
-      step: ".scroll__text .step",
+
+      step: "#scroll .scroll__text .step",
       debug: false
     })
-    .onStepEnter(handleStepEnter)
-    .onContainerEnter(handleContainerEnter)
-    .onContainerExit(handleContainerExit);
+    .onStepEnter(handleStepEnter);
+
 
   // setup resize event
   window.addEventListener("resize", handleResize);
 }
+const fig1 = vegaEmbed("#vend1", "./data/last1.vg.json", {
+  renderer: 'svg', "actions": false
+}).catch(console.warn);
+const fig2 = vegaEmbed("#vend2", "./data/last2.vg.json", {
+  renderer: 'svg', "actions": false
+}).catch(console.warn);
 
 // kick things off
 init();
