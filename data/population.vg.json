@@ -198,6 +198,22 @@
           "expr": "!length(data(\"Select_store\")) || vlSelectionTest(\"Select_store\", datum)"
         },
         {
+          "type": "formula",
+          "expr": "datum[\"type\"]===\"Extreme Poverty\" ? 0 : datum[\"type\"]===\"Moderate Poverty\" ? 1 : datum[\"type\"]===\"Social Deprivations vulnerability\" ? 2 : datum[\"type\"]===\"Income Vulnerability\" ? 3 : datum[\"type\"]===\"Non poor or vulnerable\" ? 4 : 5",
+          "as": "color_type_sort_index"
+        },
+        {
+          "type": "formula",
+          "expr": "datum[\"type\"]===\"Extreme Poverty\" ? 0 : datum[\"type\"]===\"Moderate Poverty\" ? 1 : datum[\"type\"]===\"Social Deprivations vulnerability\" ? 2 : datum[\"type\"]===\"Income Vulnerability\" ? 3 : datum[\"type\"]===\"Non poor or vulnerable\" ? 4 : 5",
+          "as": "x_type_sort_index"
+        }
+      ]
+    },
+    {
+      "name": "data_1",
+      "source": "data_0",
+      "transform": [
+        {
           "type": "stack",
           "groupby": ["type"],
           "field": "percentage",
@@ -250,7 +266,7 @@
       "type": "rect",
       "style": ["bar"],
       "interactive": true,
-      "from": {"data": "data_0"},
+      "from": {"data": "data_1"},
       "encode": {
         "update": {
           "fill": {"scale": "color", "field": "type"},
@@ -273,7 +289,11 @@
     {
       "name": "x",
       "type": "band",
-      "domain": {"data": "data_0", "field": "type", "sort": true},
+      "domain": {
+        "data": "data_0",
+        "field": "type",
+        "sort": {"op": "min", "field": "x_type_sort_index"}
+      },
       "range": [0, {"signal": "width"}],
       "paddingInner": 0.1,
       "paddingOuter": 0.05
@@ -288,7 +308,11 @@
     {
       "name": "color",
       "type": "ordinal",
-      "domain": {"data": "data_0", "field": "type", "sort": true},
+      "domain": {
+        "data": "data_0",
+        "field": "type",
+        "sort": {"op": "min", "field": "color_type_sort_index"}
+      },
       "range": {"scheme": "viridis"}
     }
   ],
@@ -297,9 +321,9 @@
       "scale": "x",
       "orient": "bottom",
       "grid": false,
+      "labelAngle": 340,
       "labelAlign": "right",
-      "labelAngle": 270,
-      "labelBaseline": "middle",
+      "labelBaseline": "top",
       "zindex": 0
     },
     {
